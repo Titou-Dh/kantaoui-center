@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const hero = () => {
+const Hero = () => {
     return (
         <>
             <div className="bg-primaryBg text-white py-12 md:px-40 px-16 dark:bg-white capitalize w-full">
@@ -16,4 +16,4 @@ const hero = () => {
         </>
     )
 }
-export default hero as Hero;
+export default Hero;
