@@ -3,8 +3,8 @@ import Image from "next/image";
 const Hero = () => {
     return (
         <>
-            <div className="bg-primaryBg text-white py-12 md:px-40 px-16 dark:bg-white capitalize w-full">
-                <h1 className="text-5xl dark:text-primaryBg ">Open the door for a <br />
+            <div className="bg-primaryBg text-white py-12 md:px-40 px-16 capitalize w-full">
+                <h1 className="text-5xl ">Open the door for a <br />
                     spacious <span className="text-primary">living-</span></h1>
                 <p className="text-gray-400 py-8">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />

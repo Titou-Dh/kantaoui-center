@@ -35,42 +35,39 @@ export default function Component() {
                         <div>
                             <h2 className="text-3xl md:text-4xl font-bold mb-4">About kantaoui Center</h2>
                             <p className="text-muted-foreground mb-6">
-                                The Grand Majestic Hotel has been a landmark in the city for over a century, offering unparalleled
-                                luxury and exceptional service to our guests. Nestled in the heart of the bustling downtown area, our
-                                hotel is the perfect base to explore the city's vibrant culture, rich history, and world-class dining
-                                and entertainment.
+                                The management and staff of the hotel EL KANTAOUI  CENTER , wish you a warm welcome and thank you for  choosing our hotel.  This guide will help you familiarize with our hotel's  amenities and the services that we offer.  We also invite you to contact the Reception for any further  information.  We wish you a pleasant stay.
                             </p>
-                            <p className="text-muted-foreground mb-6">
+                            {/* <p className="text-muted-foreground mb-6">
                                 Our hotel boasts a rich history, with the original building dating back to the early 1900s. Over the
                                 years, we have undergone extensive renovations to maintain our timeless elegance while incorporating
                                 modern amenities and technologies to ensure our guests have the most comfortable and enjoyable stay.
-                            </p>
+                            </p> */}
                             <Button className="bg-primary text-white">Explore Our Amenities</Button>
                         </div>
                         <div className="grid grid-cols-2 gap-4">
                             <img
-                                src="/placeholder.svg"
+                                src="/hero.png"
                                 width={300}
                                 height={200}
                                 alt="Hotel Lobby"
                                 className="rounded-lg object-cover"
                             />
                             <img
-                                src="/placeholder.svg"
+                                src="/hero.png"
                                 width={300}
                                 height={200}
                                 alt="Hotel Room"
                                 className="rounded-lg object-cover"
                             />
                             <img
-                                src="/placeholder.svg"
+                                src="/hero.png"
                                 width={300}
                                 height={200}
                                 alt="Hotel Spa"
                                 className="rounded-lg object-cover"
                             />
                             <img
-                                src="/placeholder.svg"
+                                src="/hero.png"
                                 width={300}
                                 height={200}
                                 alt="Hotel Restaurant"
