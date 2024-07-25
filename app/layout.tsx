@@ -7,6 +7,7 @@ import { Providers } from "./providers";
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: {
@@ -44,11 +45,9 @@ export default function RootLayout({
           <div className="relative">
             <Navbar />
             <main className="w-full">
-              {children}
+              { children }
             </main>
-            <footer className="w-full flex items-center justify-center py-3">
-              footer
-            </footer>
+            <Footer />
           </div>
         </Providers>
       </body>
