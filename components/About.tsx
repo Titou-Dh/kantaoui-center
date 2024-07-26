@@ -1,11 +1,9 @@
-
-
 import { Button } from "@nextui-org/button";
 
 export default function Component() {
-    return (
-        <div className="">
-            {/* <section className="w-full  h-[500px] relative">
+  return (
+    <div className="">
+      {/* <section className="w-full  h-[500px] relative">
                 <img
                     src="/placeholder.svg"
                     width={1920}
@@ -20,63 +18,72 @@ export default function Component() {
                     </div>
                 </div>
             </section> */}
-            <div className="text-center py-12 ">
-                <h1 className="text-4xl capitalize font-bold">
-                    About<span className="text-primary"> us</span>
-                </h1>
-                <p className="text-gray-400 mt-5">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do <br />
-                    amet sint. Velit officia consequat.
-                </p>
-            </div>
-            <section className="py-12 md:px-40 px-16">
-                <div className="container px-4 md:px-6">
-                    <div className="grid md:grid-cols-2 gap-8 md:gap-12">
-                        <div>
-                            <h2 className="text-3xl md:text-4xl font-bold mb-4">About kantaoui Center</h2>
-                            <p className="text-muted-foreground mb-6">
-                                The management and staff of the hotel EL KANTAOUI  CENTER , wish you a warm welcome and thank you for  choosing our hotel.  This guide will help you familiarize with our hotel's  amenities and the services that we offer.  We also invite you to contact the Reception for any further  information.  We wish you a pleasant stay.
-                            </p>
-                            {/* <p className="text-muted-foreground mb-6">
+      <div className="text-center py-12 ">
+        <h1 className="text-4xl capitalize font-bold">
+          About<span className="text-primary"> us</span>
+        </h1>
+        <p className="text-gray-400 mt-5">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do <br />
+          amet sint. Velit officia consequat.
+        </p>
+      </div>
+      <section className="py-12 md:px-40 px-16">
+        <div className="container px-4 md:px-6">
+          <div className="grid md:grid-cols-2 gap-8 md:gap-12">
+            <div>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                About kantaoui Center
+              </h2>
+              <p className="text-muted-foreground mb-6">
+                The management and staff of the hotel EL KANTAOUI CENTER , wish
+                you a warm welcome and thank you for choosing our hotel. This
+                guide will help you familiarize with our hotel's amenities and
+                the services that we offer. We also invite you to contact the
+                Reception for any further information. We wish you a pleasant
+                stay.
+              </p>
+              {/* <p className="text-muted-foreground mb-6">
                                 Our hotel boasts a rich history, with the original building dating back to the early 1900s. Over the
                                 years, we have undergone extensive renovations to maintain our timeless elegance while incorporating
                                 modern amenities and technologies to ensure our guests have the most comfortable and enjoyable stay.
                             </p> */}
-                            <Button className="bg-primary text-white">Explore Our Amenities</Button>
-                        </div>
-                        <div className="grid grid-cols-2 gap-4">
-                            <img
-                                src="/hero.png"
-                                width={300}
-                                height={200}
-                                alt="Hotel Lobby"
-                                className="rounded-lg object-cover"
-                            />
-                            <img
-                                src="/hero.png"
-                                width={300}
-                                height={200}
-                                alt="Hotel Room"
-                                className="rounded-lg object-cover"
-                            />
-                            <img
-                                src="/hero.png"
-                                width={300}
-                                height={200}
-                                alt="Hotel Spa"
-                                className="rounded-lg object-cover"
-                            />
-                            <img
-                                src="/hero.png"
-                                width={300}
-                                height={200}
-                                alt="Hotel Restaurant"
-                                className="rounded-lg object-cover"
-                            />
-                        </div>
-                    </div>
-                </div>
-            </section>
+              <Button className="bg-primary text-white">
+                Explore Our Amenities
+              </Button>
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              <img
+                src="/hero.png"
+                width={300}
+                height={200}
+                alt="Hotel Lobby"
+                className="rounded-lg object-cover"
+              />
+              <img
+                src="/hero.png"
+                width={300}
+                height={200}
+                alt="Hotel Room"
+                className="rounded-lg object-cover"
+              />
+              <img
+                src="/hero.png"
+                width={300}
+                height={200}
+                alt="Hotel Spa"
+                className="rounded-lg object-cover"
+              />
+              <img
+                src="/hero.png"
+                width={300}
+                height={200}
+                alt="Hotel Restaurant"
+                className="rounded-lg object-cover"
+              />
+            </div>
+          </div>
         </div>
-    )
+      </section>
+    </div>
+  );
 }
