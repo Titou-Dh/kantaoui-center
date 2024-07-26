@@ -22,12 +22,12 @@ import { ThemeSwitch } from "@/components/theme-switch";
 
 export const Navbar = () => {
   return (
-    <NextUINavbar maxWidth="xl" className="bg-primaryBg text-primary-50" position="sticky">
+    <NextUINavbar isBordered maxWidth="xl" className="text-primary-50 shadow-lg" position="sticky">
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
-            <Image src="/logo.png" width={50} height={50} alt="logo" />
-            <p className="font-bold text-white">Kantaoui Center</p>
+            <Image src="/logo.png" width={70} height={70} alt="logo" />
+            <p className="font-bold text-black dark:text-white">Kantaoui Center</p>
           </NextLink>
         </NavbarBrand>
       </NavbarContent>

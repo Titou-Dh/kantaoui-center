@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Component() {
     return (
-        <footer className="bg-muted py-6 text-sm bg-primaryBg text-primary">
+        <footer className="bg-muted py-6 md:px-40 px-16 text-sm bg-primaryBg text-primary">
             <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row">
                 <p className="text-muted-foreground">&copy; 2024 Kantaoui Center Inc. All rights reserved.</p>
                 <div className="flex flex-col">
