@@ -21,6 +21,7 @@ const Localisation = () => {
         height="450"
         className="w-full rounded-2xl shadow-lg my-10"
         loading="lazy"
+        title="map"
       ></iframe>
     </div>
   );
