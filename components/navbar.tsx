@@ -32,7 +32,11 @@ export const Navbar = () => {
         </NavbarBrand>
       </NavbarContent>
       <NavbarContent className="basis-1/5 sm:basis-full" justify="center">
+<<<<<<< Updated upstream
         <ul className="hidden lg:flex gap-4 justify-start dark:text-slate-50 text-primaryBg ml-2">
+=======
+        <ul className="hidden lg:flex gap-4 justify-start text-brown-200 ml-2">
+>>>>>>> Stashed changes
           {siteConfig.navItems.map((item) => (
             <NavbarItem key={item.href}>
               <NextLink
