@@ -9,6 +9,7 @@ export default function Home() {
     <section className="">
       <Hero />
       <About />
+      
       <Features />
       <Why />
       <Localisation />
