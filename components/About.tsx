@@ -51,33 +51,33 @@ export default function Component() {
                 Explore Our Amenities
               </Button>
             </div>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2  gap-4">
               <img
-                src="/hero.png"
+                src="/1.jpg"
                 width={300}
                 height={200}
                 alt="Hotel Lobby"
                 className="rounded-lg object-cover"
               />
               <img
-                src="/hero.png"
+                src="/2.jpg"
                 width={300}
                 height={200}
                 alt="Hotel Room"
                 className="rounded-lg object-cover"
               />
               <img
-                src="/hero.png"
+                src="/3.jpg"
                 width={300}
                 height={200}
                 alt="Hotel Spa"
                 className="rounded-lg object-cover"
               />
               <img
-                src="/hero.png"
+                src="/4.jpg"
                 width={300}
                 height={200}
-                alt="Hotel Restaurant"
+                alt="Hotel Pool"
                 className="rounded-lg object-cover"
               />
             </div>
