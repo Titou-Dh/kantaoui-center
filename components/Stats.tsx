@@ -4,7 +4,7 @@ import { JSX, SVGProps } from "react";
 function Stats() {
     return (
         <section className="pb-12 px-10 md:px-40 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4  border-primary ">
-            <Card className="p-6 bg-background border rounded-full shadow-sm">
+            <Card className="p-6 bg-background border rounded-full shadow-sm ">
                 <div className="flex items-center gap-4">
                     <div className="bg-primary rounded-full p-2 text-primary-foreground animate-pulse">
                         <MapPinIcon className="w-6 h-6" />
@@ -15,7 +15,7 @@ function Stats() {
                     </div>
                 </div>
             </Card>
-            <Card className="p-6 bg-background border rounded-full shadow-sm">
+            <Card className="p-6 bg-background border rounded-full shadow-sm ">
                 <div className="flex items-center gap-4">
                     <div className="bg-red-800 text-white rounded-full p-2 text-error-foreground animate-pulse">
                         <ClockIcon className="w-6 h-6" />
