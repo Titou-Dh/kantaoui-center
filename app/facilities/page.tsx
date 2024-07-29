@@ -25,6 +25,28 @@ const page = () => {
           className="border-none my-8 "
         >
           <Image
+
+            alt="poolside"
+            className="object-cover w-full"
+            height={1920}
+            src="/reception.jpg"
+            width={1080}
+          />
+          <CardFooter className=" before:bg-white/10  border-white/20 border-1 overflow-hidden py-3 absolute before:rounded-xl rounded-large bottom-1 w-full font-bold shadow-small ml-1 z-10 text-center">
+            <div className="w-full text-center   text-2xl">Reception</div>
+          </CardFooter>
+        </Card>
+        <p className="text-xl">RECEPTION: <div className="flex items-center gap-2"><PhoneIcon color="#fff" height={16} width={16} /> 9</div>
+          -Check in: <br />
+          14h OO  -Check out: As per the international standards,  uests are requested to release the room on the day  of their departure at 12:00am. <br /> However, guests can sti  leave their luggage in the room designated by the  reception if needed. <br />The Reception offers you  the following services: <br /> <b> Doctor & Pharmacy:</b> inquire at Reception <br />  <b>In-room Safes:</b> 2 TND per day and a deposit of 25 TN  will be paid in advance. <br />  <span className="text-red-800 font-bold">The hotel will NOT be liable for valuables deposited  outside our safes.</span>  <br /> -Exchange Service   <br />-Credit Cards types Accepted: Visa, Master Card <br /> -Mail Service: During your absence, we will keep your  mail and will take note of any messages delivered to y u <br /> -Repairs: We hope that your room will give you compi te  satisfaction. If during your stay you notice any luck,  please report it to the reception and we will take  care of it as soon as possible.
+
+        </p>
+        <Card
+          isFooterBlurred
+          radius="lg"
+          className="border-none my-8 "
+        >
+          <Image
             alt="Woman listing to music"
             className="object-cover w-full"
             height={1920}
@@ -46,28 +68,7 @@ const page = () => {
           <b>-Wakeup Call:</b> Please arrange with the Reception
 
         </p>
-        <Card
-          isFooterBlurred
-          radius="lg"
-          className="border-none my-8 "
-        >
-          <Image
 
-            alt="poolside"
-            className="object-cover w-full"
-            height={1920}
-            src="/reception.jpg"
-            width={1080}
-          />
-          <CardFooter className=" before:bg-white/10  border-white/20 border-1 overflow-hidden py-3 absolute before:rounded-xl rounded-large bottom-1 w-full font-bold shadow-small ml-1 z-10 text-center">
-            <div className="w-full text-center   text-2xl">Reception</div>
-          </CardFooter>
-        </Card>
-        <p className="text-xl">RECEPTION: <div className="flex items-center gap-2"><PhoneIcon color="#fff" height={16} width={16} /> 9</div>
-          -Check in: <br />
-          14h OO  -Check out: As per the international standards,  uests are requested to release the room on the day  of their departure at 12:00am. <br /> However, guests can sti  leave their luggage in the room designated by the  reception if needed. <br />The Reception offers you  the following services: <br /> <b> Doctor & Pharmacy:</b> inquire at Reception <br />  <b>In-room Safes:</b> 2 TND per day and a deposit of 25 TN  will be paid in advance. <br />  <span className="text-red-800 font-bold">The hotel will NOT be liable for valuables deposited  outside our safes.</span>  <br /> -Exchange Service   <br />-Credit Cards types Accepted: Visa, Master Card <br /> -Mail Service: During your absence, we will keep your  mail and will take note of any messages delivered to y u <br /> -Repairs: We hope that your room will give you compi te  satisfaction. If during your stay you notice any luck,  please report it to the reception and we will take  care of it as soon as possible.
-
-        </p>
         <Card
           isFooterBlurred
           radius="lg"
