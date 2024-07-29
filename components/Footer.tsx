@@ -12,17 +12,17 @@ export default function Component() {
                     <p>Email: <a href="mailto:reservation@hotel-elkantaouicenter.com" className="hover:underline">reservation@hotel-elkantaouicenter.com</a></p>
                     <p>Address: B.P 355 - BD14 Janvier 2011-4089 Port El Kantaoui - Sousse - Tunisie</p>
                 </div>
-                <nav className="flex flex-col items-center gap-4 md:flex-row md:items-end">
-                    <Link href="/" className="hover:underline" prefetch={false}>
+                <nav className="flex flex-col items-center md:flex-row md:items-end">
+                    <Link href="/" className="hover:underline mx-3" prefetch={false}>
                         Home
                     </Link>
-                    <Link href="/facilities" className="hover:underline" prefetch={false}>
+                    <Link href="/facilities" className="hover:underline mx-3" prefetch={false}>
                         Facilities
                     </Link>
-                    <Link href="/#about" className="hover:underline" prefetch={false}>
+                    <Link href="/#about" className="hover:underline mx-3 w-max" prefetch={false}>
                         About Us
                     </Link>
-                    <Link href="/contact" className="hover:underline" prefetch={false}>
+                    <Link href="/contact" className="hover:underline mx-3" prefetch={false}>
                         Contact
                     </Link>
                 </nav>
