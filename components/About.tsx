@@ -20,20 +20,20 @@ export default function Component() {
             </section> */}
       <div className="text-center py-12 ">
         <h1 className="text-4xl capitalize font-bold">
-          About<span className="text-primary"> us</span>
+          About Kantaoui<span className="text-primary"> Center</span>
         </h1>
-        <p className="text-gray-400 mt-5">
+        {/* <p className="text-gray-400 mt-5">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do <br />
           amet sint. Velit officia consequat.
-        </p>
+        </p> */}
       </div>
       <section className="py-12 md:px-40 px-16">
         <div className="container px-4 md:px-6">
           <div className="grid md:grid-cols-2 gap-8 md:gap-12">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              {/* <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 About kantaoui Center
-              </h2>
+              </h2> */}
               <p className="text-muted-foreground mb-6">
                 The management and staff of the hotel EL KANTAOUI CENTER , wish
                 you a warm welcome and thank you for choosing our hotel. This
