@@ -19,8 +19,8 @@ export default function Component() {
                     <Link href="/facilities" className="hover:underline" prefetch={false}>
                         Facilities
                     </Link>
-                    <Link href="/about" className="hover:underline" prefetch={false}>
-                        About
+                    <Link href="/#about" className="hover:underline" prefetch={false}>
+                        About Us
                     </Link>
                     <Link href="/contact" className="hover:underline" prefetch={false}>
                         Contact
