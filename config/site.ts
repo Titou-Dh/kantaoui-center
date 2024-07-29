@@ -14,12 +14,12 @@ export const siteConfig = {
     },
     {
       label: "About us",
-      href: "/about",
+      href: "/#about",
     },
-    {
-      label: "Rooms",
-      href: "/rooms",
-    },
+    // {
+    //   label: "Rooms",
+    //   href: "/rooms",
+    // },
     {
       label: "Contact",
       href: "/contact",

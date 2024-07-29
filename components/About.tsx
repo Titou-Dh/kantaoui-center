@@ -1,8 +1,9 @@
 import { Button } from "@nextui-org/button";
+import Link from "next/link";
 
 export default function Component() {
   return (
-    <div className="">
+    <div className="" id="about">
       {/* <section className="w-full  h-[500px] relative">
                 <img
                     src="/placeholder.svg"
@@ -18,7 +19,7 @@ export default function Component() {
                     </div>
                 </div>
             </section> */}
-      <div className="text-center py-12 ">
+      <div className="text-center pb-12 pt-20 ">
         <h1 className="text-4xl capitalize font-bold">
           About Kantaoui<span className="text-primary"> Center</span>
         </h1>
@@ -29,27 +30,25 @@ export default function Component() {
       </div>
       <section className="py-12 md:px-40 px-16">
         <div className="container px-4 md:px-6">
-          <div className="grid md:grid-cols-2 gap-8 md:gap-12">
-            <div>
+          <div className="grid md:grid-cols-2 gap-8 md:gap-12 content-center">
+            <div className="pt-20">
               {/* <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 About kantaoui Center
               </h2> */}
-              <p className="text-muted-foreground mb-6">
-                The management and staff of the hotel EL KANTAOUI CENTER , wish
-                you a warm welcome and thank you for choosing our hotel. This
-                guide will help you familiarize with our hotel's amenities and
-                the services that we offer. We also invite you to contact the
-                Reception for any further information. We wish you a pleasant
-                stay.
+              <p className="text-muted-foreground text-xl  mb-6">
+                the hotel offers four stars accommodation, 346 rooms  and suites renovated with all modern commodities i.e  satellite TV, Deposit box, telephone, Mini bar, air  conditioning.
+
               </p>
               {/* <p className="text-muted-foreground mb-6">
                                 Our hotel boasts a rich history, with the original building dating back to the early 1900s. Over the
                                 years, we have undergone extensive renovations to maintain our timeless elegance while incorporating
                                 modern amenities and technologies to ensure our guests have the most comfortable and enjoyable stay.
                             </p> */}
-              <Button className="bg-primary text-white">
-                Explore Our Amenities
-              </Button>
+              <Link href="/facilities">
+                <Button className="bg-primary text-white">
+                  Learn More
+                </Button>
+              </Link>
             </div>
             <div className="grid grid-cols-2  gap-4">
               <img
