@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Card, CardHeader, CardBody, CardFooter } from "@nextui-org/card";
 import { Button } from "@nextui-org/button";
 import { PhoneIcon } from "@/components/icons";
-
+import Accordion from "@/components/Accordion";
 
 
 const page = () => {
@@ -65,11 +65,15 @@ const page = () => {
           <b>-Laundry service:</b> This service takes up to 48 hours,  the linen is delivered before 10:00.  <br />
 
           <b>-TV Remote:</b> available at the Reception (deposit  20 TND)  <br />
-          <b>-Wakeup Call:</b> Please arrange with the Reception
+          <b>-Wakeup Call:</b> Please arrange with the Reception.
 
         </p>
+        <div>
+          <Accordion title="La Fiesta" answer="The hotel's main Restaurant offering a rich Buffet  and a Show Cooking service.  Breakfast: from 6:30AM to 10:00AM  Lunch: from 12:30PM to 14:OOPM  Dinner: from 18:30PM to 20:OOPM  Presenting Resident Access Card is required at the  entrance of the Restaurant (bracelet required )  - In side The Restaurant area is entirely non-smoking.  -It is strictly forbidden to take food, drinks and  equipment out of the restaurant.  
+NB:(bold) It is recommended that you order your drinks  before heading to the buffet in order to speed  up the service (Extra Drinks). " />
+        </div>
 
-        <Card
+        {/* <Card
           isFooterBlurred
           radius="lg"
           className="border-none my-8 "
@@ -132,7 +136,8 @@ const page = () => {
           <CardFooter className=" before:bg-white/10  border-white/20 border-1 overflow-hidden py-3 absolute before:rounded-xl rounded-large bottom-1 w-full font-bold shadow-small ml-1 z-10 text-center">
             <div className="w-full text-center  text-primary text-2xl">Laundry</div>
           </CardFooter>
-        </Card>
+        </Card> */}
+
       </div>
     </div>
   );
