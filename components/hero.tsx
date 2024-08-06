@@ -4,9 +4,9 @@ const Hero = () => {
     return (
         <div className=" pb-12 px-10 md:px-40" >
             <div className=" text-primaryBg dark dark:text-white pt-12 capitalize w-full ">
-                <div className="text-7xl font-bold w-3/4" data-aos="fade-right">
+                <div className="text-7xl font-bold " data-aos="fade-right">
                     <h1 className=" flex  gap-6" >Hotel
-                        <span className="flex gap-2 ">
+                        <span className="flex flex-wrap gap-2 ">
                             <Image src="/star-svgrepo-com.svg" alt="logo" width={70} height={70} />
                             <Image src="/star-svgrepo-com.svg" alt="logo" width={70} height={70} />
                             <Image src="/star-svgrepo-com.svg" alt="logo" width={70} height={70} />
@@ -14,7 +14,7 @@ const Hero = () => {
 
                         </span>
                         <br /></h1>
-                    <h1 className="w-max">
+                    <h1 className="w-min">
                         el Kantaoui <span className="text-primary">Center</span>
                     </h1>
                 </div>
