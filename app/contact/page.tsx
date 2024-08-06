@@ -3,10 +3,10 @@ import Link from "next/link";
 
 export default function Component() {
   return (
-    <div className="container flex items-center justify-around  mx-auto px-32 py-12 md:py-20 lg:py-24">
-      <div className="max-w-3xl mx-auto space-y-8 w-1/2 ">
+    <div className="container flex items-center flex-col md:flex-row  justify-around  mx-auto px-5 lg:px-32 py-12 md:py-20 lg:py-24">
+      <div className=" mx-auto space-y-8 w-full  md:w-1/2 ">
         <div className="">
-          <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
+          <h1 className="text-3xl text-primary font-bold tracking-tight sm:text-4xl">
             Get in Touch
           </h1>
           <p className="mt-4 text-muted-foreground">

@@ -7,10 +7,6 @@ const Why = () => {
                 <h1 className="text-4xl capitalize font-bold">
                     Why you should <span className="text-primary">stay here</span>
                 </h1>
-                <p className="text-gray-400 mt-5">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do <br />
-                    amet sint. Velit officia consequat.
-                </p>
             </div>
             <div className="flex flex-col md:flex-row items-center justify-around md:pl-40 pl-2 py-8  ">
                 <div className="md:w-1/2  w-full text-center md:text-start gap-8 flex flex-col justify-center md:justify-start">
