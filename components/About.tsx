@@ -4,37 +4,15 @@ import Link from "next/link";
 export default function Component() {
   return (
     <div className="" id="about">
-      {/* <section className="w-full  h-[500px] relative">
-                <img
-                    src="/placeholder.svg"
-                    width={1920}
-                    height={500}
-                    alt="Hotel Hero"
-                    className="w-full h-full object-cover object-center"
-                />
-                <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
-                    <div className="text-center text-white space-y-4">
-                        <h1 className="text-4xl md:text-6xl font-bold">The Grand Majestic Hotel</h1>
-                        <p className="text-lg md:text-xl">Experience the epitome of luxury and comfort in the heart of the city.</p>
-                    </div>
-                </div>
-            </section> */}
       <div className="text-center pb-12 pt-20 ">
         <h1 className="text-4xl capitalize font-bold">
           About Kantaoui<span className="text-primary"> Center</span>
         </h1>
-        {/* <p className="text-gray-400 mt-5">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do <br />
-          amet sint. Velit officia consequat.
-        </p> */}
       </div>
       <section className="py-12 md:px-40 px-16">
         <div className="container px-4 md:px-6">
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 content-center">
-            <div className="pt-20">
-              {/* <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                About kantaoui Center
-              </h2> */}
+            <div className="md:pt-20">
               <p className="text-muted-foreground text-xl  mb-6">
                 the hotel offers four stars accommodation, 346 rooms  and suites renovated with all modern commodities i.e  satellite TV, Deposit box, telephone, Mini bar, air  conditioning.
 
