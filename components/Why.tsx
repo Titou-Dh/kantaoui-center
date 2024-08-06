@@ -1,4 +1,4 @@
-import { WifiIcon, CarIcon, ResortIcon, DrinkIcon } from "./icons";
+import { WifiIcon, CarIcon, ResortIcon } from "./icons";
 
 const Why = () => {
     return (
