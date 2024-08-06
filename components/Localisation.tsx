@@ -3,10 +3,10 @@ import React from "react";
 const Localisation = () => {
   return (
     <div className="text-center py-12 md:px-40 px-12">
-      <h1 className="text-4xl capitalize font-bold">
+      <h1 className="text-4xl capitalize font-bold" data-aos="fade-right">
         Where you <span className="text-primary">Find us</span>
       </h1>
-      <p className="text-gray-400 mt-5">
+      <p className="text-gray-400 mt-5" data-aos="fade-up" date-aos-duration="1000">
         EL Kantaoui Center situated in the heart of the first resort of Tunisia
         port el kantaoui IO mn drive to the city center of Sousse 15Km from
         international airport of Monastir and 30 Km from the international
@@ -22,6 +22,7 @@ const Localisation = () => {
         className="w-full rounded-2xl shadow-lg my-10"
         loading="lazy"
         title="map"
+        data-aos="zoom-in"
       ></iframe>
     </div>
   );

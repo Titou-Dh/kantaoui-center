@@ -16,10 +16,6 @@ export const siteConfig = {
       label: "About us",
       href: "/#about",
     },
-    // {
-    //   label: "Rooms",
-    //   href: "/rooms",
-    // },
     {
       label: "Contact",
       href: "/contact",
@@ -31,23 +27,16 @@ export const siteConfig = {
       href: "/",
     },
     {
-      label: "About us",
-      href: "/about",
+      label: "Facilities",
+      href: "/facilities",
     },
     {
-      label: "Rooms",
-      href: "/rooms",
+      label: "About us",
+      href: "/#about",
     },
     {
       label: "Contact",
       href: "/contact",
     },
   ],
-  links: {
-    github: "https://github.com/nextui-org/nextui",
-    twitter: "https://twitter.com/getnextui",
-    docs: "https://nextui.org",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
-  },
 };

@@ -4,27 +4,27 @@ const Why = () => {
     return (
         <div className="dark:bg-primaryBg">
             <div className="text-center py-12 ">
-                <h1 className="text-4xl capitalize font-bold">
+                <h1 className="text-4xl capitalize font-bold" data-aos="fade-right">
                     Why you should <span className="text-primary">stay here</span>
                 </h1>
             </div>
             <div className="flex flex-col md:flex-row items-center justify-around md:pl-40 pl-2 py-8  ">
                 <div className="md:w-1/2  w-full text-center md:text-start gap-8 flex flex-col justify-center md:justify-start">
-                    <div>
+                    <div data-aos="fade-down" date-aos-duration="1000">
                         <div className="rounded-full bg-primary w-min p-4 mx-auto md:mx-0"> <WifiIcon height={24} width={24} color="#fff"  /></div>
                         <h2 className="text-xl text-black my-2 dark:text-white">Free wifi</h2>
                         <p className="text-gray-500">
                             Get the best internet facility in the town. <br />
                         </p>
                     </div>
-                    <div>
+                    <div data-aos="fade-down" date-aos-duration="1500">
                         <div className="rounded-full bg-primary w-min p-4 mx-auto md:mx-0"> <CarIcon height={24} width={24} color="#fff" /></div>
                         <h2 className="text-xl dark:text-white text-black my-2">Free Parking</h2>
                         <p className="text-gray-500">
                             Get the best parking facility in the town. <br />
                         </p>
                     </div>
-                    <div>
+                    <div data-aos="fade-down" date-aos-duration="2000">
                     <div className="rounded-full bg-primary w-min p-4 mx-auto md:mx-0"> <ResortIcon height={24} width={24} color="#fff" /></div>
                         <h2 className="text-xl dark:text-white text-black my-2">Ressort view </h2>
                         <p className="text-gray-500">
@@ -32,7 +32,7 @@ const Why = () => {
                         </p>
                     </div>
                 </div>
-                <div className="md:w-1/2 w-full">
+                <div className="md:w-1/2 w-full" data-aos="zoom-in" date-aos-duration="1500">
                     <img src="/why.png" alt="why1" className="w-full h-full" />
                 </div>
             </div>
