@@ -37,9 +37,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   useEffect(() => {
-    AOS.init({
-      duration: 850,
-    });
+    AOS.init();
   }, []);
 
   return (
