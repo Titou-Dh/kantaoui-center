@@ -10,21 +10,21 @@ const Why = () => {
             </div>
             <div className="flex flex-col md:flex-row items-center justify-around md:pl-40 pl-2 py-8  ">
                 <div className="md:w-1/2  w-full text-center md:text-start gap-8 flex flex-col justify-center md:justify-start">
-                    <div data-aos="fade-down" date-aos-duration="1000">
+                    <div data-aos="fade-down">
                         <div className="rounded-full bg-primary w-min p-4 mx-auto md:mx-0"> <WifiIcon height={24} width={24} color="#fff"  /></div>
                         <h2 className="text-xl text-black my-2 dark:text-white">Free wifi</h2>
                         <p className="text-gray-500">
                             Get the best internet facility in the town. <br />
                         </p>
                     </div>
-                    <div data-aos="fade-down" date-aos-duration="1500">
+                    <div data-aos="fade-down">
                         <div className="rounded-full bg-primary w-min p-4 mx-auto md:mx-0"> <CarIcon height={24} width={24} color="#fff" /></div>
                         <h2 className="text-xl dark:text-white text-black my-2">Free Parking</h2>
                         <p className="text-gray-500">
                             Get the best parking facility in the town. <br />
                         </p>
                     </div>
-                    <div data-aos="fade-down" date-aos-duration="2000">
+                    <div data-aos="fade-down" >
                     <div className="rounded-full bg-primary w-min p-4 mx-auto md:mx-0"> <ResortIcon height={24} width={24} color="#fff" /></div>
                         <h2 className="text-xl dark:text-white text-black my-2">Ressort view </h2>
                         <p className="text-gray-500">
@@ -32,7 +32,7 @@ const Why = () => {
                         </p>
                     </div>
                 </div>
-                <div className="md:w-1/2 w-full" data-aos="zoom-in" date-aos-duration="1500">
+                <div className="md:w-1/2 w-full" data-aos="zoom-in">
                     <img src="/why.png" alt="why1" className="w-full h-full" />
                 </div>
             </div>
