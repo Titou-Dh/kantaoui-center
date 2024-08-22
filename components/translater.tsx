@@ -12,14 +12,17 @@ declare global {
 
 export default function GoogleTranslate() {
 
-    const handleChange = (lang) => {
-        window.googleTranslateElementInit = () => {
+    const handleChange = (s: string): void => {
+        window.googleTranslateElementInit = (): void => {
             new window.google.translate.TranslateElement(
                 {
-                    pageLanguage: lang
+                    pageLanguage: s,
+                    includedLanguages: "en,es,fr,de",
+                    layout: window.google.translate.TranslateElement.InlineLayout.SIMPLE,
                 }
             );
         };
+        // console.log(s);
     }
 
     return (
@@ -27,12 +30,11 @@ export default function GoogleTranslate() {
             placeholder="Translate"
             className="w-20"
             size="sm"
-            defaultValue="en"
         >
-            <SelectItem key="1" value="en" onClick={(e) => handleChange(e.target.value)}>Eng</SelectItem>
-            <SelectItem key="2" value="fr" onClick={(e) => handleChange(e.target.value)}>Fr</SelectItem>
-            <SelectItem key="3" value="ar" onClick={(e) => handleChange(e.target.value)}>Ar</SelectItem>
-            <SelectItem key="4" value="de" onClick={(e) => handleChange(e.target.value)}>De</SelectItem>
+            <SelectItem key="1" value="en" onClick={() => handleChange('en')}>Eng</SelectItem>
+            <SelectItem key="2" value="fr" onClick={() => handleChange('fr')}>Fr</SelectItem>
+            <SelectItem key="3" value="ar" onClick={() => handleChange('ar')}>Ar</SelectItem>
+            <SelectItem key="4" value="de" onClick={() => handleChange('de')}>De</SelectItem>
         </Select>
     );
 }
