@@ -44,7 +44,12 @@ export default function RootLayout({
 
   return (
     <html suppressHydrationWarning lang="en">
-      <head />
+      <head >
+        <script
+          src="//google.com/translate_a/element.js?cb=googleTranslateElementInit"
+          async={true}
+        ></script>
+      </head>
       <body
         className={clsx(
           "min-h-screen bg-background font-sans antialiased",

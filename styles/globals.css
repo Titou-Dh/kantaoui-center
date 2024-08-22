@@ -3,3 +3,30 @@
 @tailwind utilities;
 
 
+#google_translate_element {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.goog-te-gadget {
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* .skiptranslate {
+    display: none !important;
+} */
+
+/* .goog-te-gadget-icon {
+    display: none !important;
+} */
+
+
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+}

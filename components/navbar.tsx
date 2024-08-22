@@ -15,6 +15,7 @@ import Image from "next/image";
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
+import GoogleTranslate from "./translater";
 
 
 export const Navbar = () => {
@@ -52,10 +53,12 @@ export const Navbar = () => {
       </NavbarContent>
       <NavbarContent className="basis-1/5 hidden md:flex sm:basis-full" justify="end">
         <ThemeSwitch />
+        <GoogleTranslate />
       </NavbarContent>
       <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
         <ThemeSwitch />
         <NavbarMenuToggle />
+        <GoogleTranslate />
       </NavbarContent>
 
       <NavbarMenu>

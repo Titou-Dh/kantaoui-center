@@ -10,7 +10,6 @@ const Hero = () => {
                             <Image src="/star-svgrepo-com.svg" alt="logo" width={70} height={70} />
                             <Image src="/star-svgrepo-com.svg" alt="logo" width={70} height={70} />
                             <Image src="/star-svgrepo-com.svg" alt="logo" width={70} height={70} />
-                            <Image src="/star-svgrepo-com.svg" alt="logo" width={70} height={70} />
 
                         </span>
                         <br /></h1>
