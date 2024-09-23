@@ -49,6 +49,11 @@ export default function RootLayout({
           src="//google.com/translate_a/element.js?cb=googleTranslateElementInit"
           async={true}
         ></script>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/logo.jpg" />
+        <title>Kantaoui Center</title>
+        <meta name="description" content="Kantaoui Center" />
       </head>
       <body
         className={clsx(

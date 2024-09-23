@@ -7,9 +7,10 @@ const Hero = () => {
                 <div className="text-7xl font-bold " data-aos="fade-right">
                     <h1 className=" flex  gap-6" >Hotel
                         <span className="flex flex-wrap gap-2 ">
-                            <Image src="/star-svgrepo-com.svg" alt="logo" width={70} height={70} />
-                            <Image src="/star-svgrepo-com.svg" alt="logo" width={70} height={70} />
-                            <Image src="/star-svgrepo-com.svg" alt="logo" width={70} height={70} />
+                            <Image src="/star-svgrepo-com.svg" alt="logo" width={40} height={40} />
+                            <Image src="/star-svgrepo-com.svg" alt="logo" width={40} height={40} />
+                            <Image src="/star-svgrepo-com.svg" alt="logo" width={40} height={40} />
+                            
 
                         </span>
                         <br /></h1>

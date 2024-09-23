@@ -28,8 +28,8 @@ export default function Component() {
           <div>
             <h2 className="text-xl font-semibold mb-4">Phone</h2>
             <div className="space-y-2">
-              <p>Phone: +216 73346800/801</p>
-              <p>Fax: +216 73346900/901</p>
+              <p>Phone: +216 22 777 320</p>
+              <p>WhatsApp/Phone: +216 97 275 789</p>
             </div>
           </div>
           <div>
@@ -37,12 +37,12 @@ export default function Component() {
             <div className="space-y-2">
               <p>
                 <Link href="#" className="underline" prefetch={false}>
-                  reservation@hotel-elkantaouicenter.com
+                  hotel.elkantaoui.center@gmail.com
                 </Link>
               </p>
             </div>
           </div>
-          
+
         </div>
       </div>
       <Image src="/contact.png" alt="Contact" width={500} height={600} />

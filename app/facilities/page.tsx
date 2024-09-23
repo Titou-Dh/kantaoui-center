@@ -102,11 +102,22 @@ const page = () => {
               aria-label="Accordion 2"
               title={
                 <span className="flex items-center gap-2">
-                  Roméo  <PhoneIcon color="#fff" height={16} width={16} />  6016
+                  The Space <PhoneIcon color="#fff" height={16} width={16} />  6016
                 </span>
               }
             >
               The restaurant offers a rich Menu that includes  different dishes, salads and pastries all freshand tasty.  Open from 17:00PM until OOhOO
+            </AccordionItem>
+            <AccordionItem
+              key="3"
+              aria-label="Accordion 3"
+              title={
+                <span className="flex items-center gap-2">
+                  Ken Zmen <PhoneIcon color="#fff" height={16} width={16} />  6016
+                </span>
+              }
+            >
+              Ken Zmen is a Tunisian restaurant that offers  a variety of traditional dishes in a warm and  friendly atmosphere.
             </AccordionItem>
           </Accordion>
           <h1 className="text-3xl text-center my-12 pt-8 pb-4 text-primary ">
@@ -140,7 +151,7 @@ const page = () => {
               aria-label="Accordion 5"
               title={
                 <span className="flex items-center gap-2">
-                  Anonym <PhoneIcon color="#fff" height={16} width={16} />  6017
+                  Kalven club / dancing bar <PhoneIcon color="#fff" height={16} width={16} />  6017
                 </span>
               }
             >
@@ -162,7 +173,7 @@ const page = () => {
               aria-label="Accordion 7"
               title={
                 <span className="flex items-center gap-2">
-                  Maurish Cafe " EL Chedlia " <PhoneIcon color="#fff" height={16} width={16} />  6034
+                  Hookah <PhoneIcon color="#fff" height={16} width={16} />  6034
                 </span>
               }
             >
