@@ -7,8 +7,8 @@ export default function Component() {
                 <p className="text-center md:text-left text-sm md:text-base">&copy; 2024 Kantaoui Center Inc. All rights reserved.</p>
                 <div className="flex flex-col items-center md:items-start text-center md:text-left gap-2">
                     <p className="font-semibold text-lg">Contact Us</p>
-                    <p>Phone: <a href="#" className="hover:underline">+216 22 777 320</a></p>
-                    <p>WhatsApp/Phone: <a href="#" className="hover:underline">+216 97 275 789</a></p>
+                    <p>Phone: <span className="hover:underline">+216 22 777 320</span></p>
+                    <p>WhatsApp/Phone: <span className="hove:underline">+216 97 275 789</span></p>
                     <p>Email: <a href="mailto:reservation@hotel-elkantaouicenter.com" className="hover:underline">hotel.elkantaoui.center@gmail.com</a></p>
                     <p>Address: B.P 355 - BD14 Janvier 2011-4089 Port El Kantaoui - Sousse - Tunisie</p>
                 </div>
