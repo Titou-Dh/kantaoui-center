@@ -73,7 +73,7 @@ const page = () => {
         </p>
         <div>
           <h1 className="text-3xl text-center my-12 pt-8 pb-4 text-primary ">
-            Restaurents
+            Restaurants
           </h1>
           <Accordion variant="splitted" className="my-8">
             <AccordionItem
