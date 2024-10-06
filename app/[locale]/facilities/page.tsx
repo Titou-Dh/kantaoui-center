@@ -8,7 +8,7 @@ import { Accordion, AccordionItem } from "@nextui-org/accordion";
 
 import { useTranslations } from "next-intl";
 
-const page = () => {
+const Page = () => {
   const t = useTranslations("Facilities");
   return (
     <div className="min-h-screen dark:bg-primaryBg pb-12 px-10 md:px-40 leading-relaxed">
@@ -325,5 +325,5 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
 
