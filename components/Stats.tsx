@@ -1,7 +1,10 @@
 import { Card } from "@nextui-org/card";
 import { JSX, SVGProps } from "react";
 
+import { useTranslations } from "next-intl";
+
 function Stats() {
+    const t = useTranslations("About");
     return (
         <section className="pb-12 px-10 md:px-40 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4  border-primary " data-aos="fade-down">
             <Card className="p-6 bg-background border rounded-full shadow-sm ">
@@ -10,8 +13,8 @@ function Stats() {
                         <MapPinIcon className="w-6 h-6" />
                     </div>
                     <div>
-                        <div className="text-3xl font-bold">Midtown</div>
-                        <p className="text-muted-foreground">Location</p>
+                        <div className="text-3xl font-bold">{t("stat.midtown")}</div>
+                        <p className="text-muted-foreground">{t("stat.location")}</p>
                     </div>
                 </div>
             </Card>
@@ -21,8 +24,8 @@ function Stats() {
                         <ClockIcon className="w-6 h-6" />
                     </div>
                     <div>
-                        <div className="text-3xl font-bold">10 minutes</div>
-                        <p className="text-muted-foreground">drive from city center</p>
+                        <div className="text-3xl font-bold">10 {t("stat.minutes")}</div>
+                        <p className="text-muted-foreground">{t("stat.drive")}</p>
                     </div>
                 </div>
             </Card>
@@ -33,7 +36,7 @@ function Stats() {
                     </div>
                     <div>
                         <div className="text-3xl font-bold">346 +</div>
-                        <p className="text-muted-foreground">Luxury rooms</p>
+                        <p className="text-muted-foreground">{t("stat.rooms")}</p>
                     </div>
                 </div>
             </Card>
@@ -44,7 +47,7 @@ function Stats() {
                     </div>
                     <div>
                         <div className="text-3xl font-bold">2 +</div>
-                        <p className="text-muted-foreground">Swimming pools</p>
+                        <p className="text-muted-foreground">{t("stat.pools")}</p>
                     </div>
                 </div>
             </Card>
@@ -55,7 +58,7 @@ function Stats() {
                     </div>
                     <div>
                         <div className="text-3xl font-bold">15 Km</div>
-                        <p className="text-muted-foreground">from the international airport of  Monastir</p>
+                        <p className="text-muted-foreground">{t("stat.airport1")}</p>
                     </div>
                 </div>
             </Card>
@@ -66,7 +69,7 @@ function Stats() {
                     </div>
                     <div>
                         <div className="text-3xl font-bold">30 Km</div>
-                        <p className="text-muted-foreground">from the international  airport of Enfida</p>
+                        <p className="text-muted-foreground">{t("stat.airport2")}</p>
                     </div>
                 </div>
             </Card>
@@ -77,7 +80,7 @@ function Stats() {
                     </div>
                     <div>
                         <div className="text-3xl font-bold">200m</div>
-                        <p className="text-muted-foreground">from the beach "Port El Kantaoui"</p>
+                        <p className="text-muted-foreground">{t("stat.beach")}</p>
                     </div>
                 </div>
             </Card>
@@ -116,7 +119,7 @@ function TreePalmIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) 
 
 function SwimmingPoolIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
     return (
-        <svg 
+        <svg
             {...props}
             height="24"
             width="24"

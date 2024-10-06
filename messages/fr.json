@@ -1,0 +1,41 @@
+{
+    "Hero": {
+        "title": "Hôtel",
+        "paragraph": "La direction et le personnel de l'hôtel EL KANTAOUI CENTER vous souhaitent la bienvenue chaleureuse et vous remercient d'avoir choisi notre hôtel. Ce guide vous aidera à vous familiariser avec les commodités de notre hôtel et les services que nous offrons. Nous vous invitons également à contacter la Réception pour toute information complémentaire. Nous vous souhaitons un agréable séjour."
+    },
+    "About": {
+        "title": "À propos",
+        "paragraph": "L'hôtel propose un hébergement quatre étoiles, 346 chambres et suites rénovées avec toutes les commodités modernes, c'est-à-dire télévision satellite, coffre-fort, téléphone, mini-bar, climatisation.",
+        "more": "Voir plus",
+        "stat": {
+            "location": "Emplacement",
+            "midtown": "Centre-ville",
+            "drive": "trajet depuis le centre-ville",
+            "minutes": "minutes",
+            "rooms": "Chambres luxueuses",
+            "pools": "Piscines",
+            "airport1": "de l'aéroport international de Monastir",
+            "airport2": "de l'aéroport international d'Enfidha",
+            "beach": "de la plage \"Port El Kantaoui\""
+        }
+    },
+    "Why": {
+        "titre": "Pourquoi vous devriez nous choisir",
+        "freeWifi": {
+            "title": "Wi-Fi gratuit",
+            "message": "Profitez de la meilleure connexion Internet de la ville."
+        },
+        "freeParking": {
+            "title": "Parking gratuit",
+            "message": "Profitez du meilleur parking de la ville."
+        },
+        "ressort": {
+            "title": "Vue sur la station",
+            "message": "Profitez de la meilleure vue de la ville."
+        }
+    },
+    "Where": {
+        "title": "Où nous trouver",
+        "paragraph": "Le Centre EL Kantaoui est situé au cœur du premier complexe touristique de Tunisie, Port El Kantaoui, à 10 minutes en voiture du centre-ville de Sousse, à 15 km de l'aéroport international de Monastir et à 30 km de l'aéroport international d'Enfidha. À proximité, une marina, divers magasins, bars, cafés, restaurants, un parc d'attractions, et des possibilités de loisirs comme le tennis, un club de plongée, un port de plaisance, un parcours de golf (classé PGA) et des discothèques."
+    }
+}

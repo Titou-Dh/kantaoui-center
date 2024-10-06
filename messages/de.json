@@ -1,0 +1,41 @@
+{
+    "Hero": {
+        "title": "Hotel",
+        "paragraph": "Die Geschäftsführung und das Personal des Hotels EL KANTAOUI CENTER heißen Sie herzlich willkommen und danken Ihnen, dass Sie unser Hotel gewählt haben. Dieser Leitfaden hilft Ihnen, sich mit den Annehmlichkeiten unseres Hotels und den von uns angebotenen Dienstleistungen vertraut zu machen. Wir laden Sie auch ein, sich für weitere Informationen an die Rezeption zu wenden. Wir wünschen Ihnen einen angenehmen Aufenthalt."
+    },
+    "About": {
+        "title": "Über uns",
+        "paragraph": "Das Hotel bietet eine Vier-Sterne-Unterkunft mit 346 renovierten Zimmern und Suiten, die mit allen modernen Annehmlichkeiten wie Satelliten-TV, Safe, Telefon, Minibar und Klimaanlage ausgestattet sind.",
+        "more": "Mehr anzeigen",
+        "stat": {
+            "location": "Lage",
+            "midtown": "Innenstadt",
+            "drive": "Fahrt vom Stadtzentrum",
+            "minutes": "Minuten",
+            "rooms": "Luxuriöse Zimmer",
+            "pools": "Schwimmbäder",
+            "airport1": "vom internationalen Flughafen Monastir",
+            "airport2": "vom internationalen Flughafen Enfidha",
+            "beach": "vom Strand \"Port El Kantaoui\""
+        }
+    },
+    "Why": {
+        "titre": "Warum Sie uns wählen sollten",
+        "freeWifi": {
+            "title": "Kostenloses WLAN",
+            "message": "Erhalten Sie die beste Internetverbindung der Stadt."
+        },
+        "freeParking": {
+            "title": "Kostenloses Parken",
+            "message": "Profitieren Sie von der besten Parkmöglichkeit der Stadt."
+        },
+        "ressort": {
+            "title": "Resortblick",
+            "message": "Genießen Sie die beste Aussicht der Stadt."
+        }
+    },
+    "Where": {
+        "title": "Wo Sie uns finden",
+        "paragraph": "Das EL Kantaoui Center befindet sich im Herzen des ersten Resorts von Tunesien, Port El Kantaoui, 10 Minuten Fahrt ins Stadtzentrum von Sousse, 15 km vom internationalen Flughafen Monastir und 30 km vom internationalen Flughafen Enfidha entfernt. In der Nähe befinden sich eine Marina, verschiedene Geschäfte, Bars, Cafés, Restaurants, ein Vergnügungspark und Freizeitmöglichkeiten wie Tennis, Tauchclub, Freizeithafen, Golfplatz (PGA-klassifiziert) und Nachtclubs."
+    }
+}

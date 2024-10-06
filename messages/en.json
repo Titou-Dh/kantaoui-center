@@ -1,0 +1,44 @@
+{
+    "Hero": {
+        "title": "Hotel",
+        "paragraph": "The management and staff of the hotel EL KANTAOUI CENTER , wish you a warm welcome and thank you for choosing our hotel. This guide will help you familiarize with our hotel's amenities and the services that we offer. We also invite you to contact the Reception for any further information. We wish you a pleasant stay."
+    },
+    "About": {
+        "title": "About",
+        "paragraph": "the hotel offers four stars accommodation, 346 rooms and suites renovated with all modern commodities i.e satellite TV, Deposit box, telephone, Mini bar, air conditioning.",
+        "more":"View more",
+        "stat":{
+            "location":"location",
+            "midtown":"midtown",
+            "drive":"drive from city center",
+            "minutes":"minutes",
+            "rooms":"Luxury rooms",
+            "pools":"Swimming pools",
+            "airport1":"from the international airport of Monastir",
+            "airport2":"from the international airport of Enfidha",
+            "beach":"from the beach \"Port El Kantaoui\""
+        }
+    },
+    "Why":{
+        "titre":"Why you should choose us",
+        "freeWifi":{
+            "title":"Free Wifi",
+            "message":"Get the best internet facility in the town."
+        },
+        "freeParking":{
+            "title":"Free Parking",
+            "message":"Get the best parking facility in the town."
+        },
+        "ressort":{
+            "title":"Ressort view",
+            "message":"Get the best view in the town."
+        }
+    },
+    "Where":{
+        "title": "Where you Find us",
+        "paragraph":"EL Kantaoui Center situated in the heart of the first resort of Tunisia port el kantaoui IO mn drive to the city center of Sousse 15Km from international airport of Monastir and 30 Km from the international airport of Enfidha. Near by a marina , various shops , bars , cafes , restaurants amusement park and funfairs . tennis , diving club , leisure port , golf course (PGA classified) Night clubs, etc."
+
+    }
+
+
+}

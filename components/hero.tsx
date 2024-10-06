@@ -1,11 +1,17 @@
 import Image from "next/image";
 
+import {useTranslations} from 'next-intl';
+
+
 const Hero = () => {
+    const t = useTranslations('Hero');
+
+
     return (
         <div className=" pb-12 px-10 md:px-40" >
             <div className=" text-primaryBg dark dark:text-white pt-12 capitalize w-full ">
                 <div className="text-7xl font-bold " data-aos="fade-right">
-                    <h1 className=" flex  gap-6" >Hotel
+                    <h1 className=" flex  gap-6" >{t('title')}
                         <span className="flex flex-wrap gap-2 ">
                             <Image src="/star-svgrepo-com.svg" alt="logo" width={40} height={40} />
                             <Image src="/star-svgrepo-com.svg" alt="logo" width={40} height={40} />
@@ -19,12 +25,7 @@ const Hero = () => {
                     </h1>
                 </div>
                 <p className="text-gray-400 py-8 md:w-1/2 w-full " data-aos="fade-right" data-aos-duration="1350" >
-                    The management and staff of the hotel EL KANTAOUI CENTER , wish
-                    you a warm welcome and thank you for choosing our hotel. This
-                    guide will help you familiarize with our hotel's amenities and
-                    the services that we offer. We also invite you to contact the
-                    Reception for any further information. We wish you a pleasant
-                    stay.
+                    {t('paragraph')}
                 </p>
 
             </div>

@@ -1,40 +1,28 @@
+'use client'; // Ensure it's a client component
 
-import { Select, SelectItem } from "@nextui-org/select";
+import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 
-declare global {
-    interface Window {
-        googleTranslateElementInit: () => void;
-        google: any;
-    }
-}
+function Translater() {
+    const router = useRouter();
+    const pathname = usePathname();
+    const searchParams = useSearchParams();
 
-
-
-export default function GoogleTranslate() {
-
-    const handleChange = (s: string): void => {
-        window.googleTranslateElementInit = (): void => {
-            new window.google.translate.TranslateElement(
-                {
-                    pageLanguage: s,
-                    includedLanguages: "en,es,fr,de",
-                    layout: window.google.translate.TranslateElement.InlineLayout.SIMPLE,
-                }
-            );
-        };
-        // console.log(s);
-    }
+    const handleChange = (event: { target: { value: any; }; }) => {
+        const selectedLocale = event.target.value;
+        const queryParams = new URLSearchParams(searchParams.toString());
+        router.push(`/${selectedLocale}`);
+    };
 
     return (
-        <Select
-            placeholder="Translate"
-            className="w-20"
-            size="sm"
-        >
-            <SelectItem key="1" value="en" onClick={() => handleChange('en')}>Eng</SelectItem>
-            <SelectItem key="2" value="fr" onClick={() => handleChange('fr')}>Fr</SelectItem>
-            <SelectItem key="3" value="ar" onClick={() => handleChange('ar')}>Ar</SelectItem>
-            <SelectItem key="4" value="de" onClick={() => handleChange('de')}>De</SelectItem>
-        </Select>
+        <div>
+            <select id="language-select" onChange={handleChange} defaultValue={router.locale} className='text-black p-2 border rounded-md dark:bg-black dark:text-white border-primary'>
+                <option value="" disabled selected>languages</option>
+                <option value="en">English</option>
+                <option value="fr">French</option>
+                <option value="de">German</option>
+            </select>
+        </div>
     );
 }
+
+export default Translater;
