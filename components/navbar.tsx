@@ -8,7 +8,7 @@ import {
   NavbarMenuItem,
 } from "@nextui-org/navbar";
 
-import { Translator } from "@/components/Translator";
+import Translator  from "@/components/Translator";
 import { Link } from "@nextui-org/link";
 import NextLink from "next/link";
 import clsx from "clsx";

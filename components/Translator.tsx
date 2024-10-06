@@ -1,10 +1,9 @@
 'use client'; 
 
-import { useRouter, usePathname, useSearchParams } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 
-export function Translator() {
+function Translator() {
     const router = useRouter();
-    const pathname = usePathname();
     const searchParams = useSearchParams();
 
     const handleChange = (event: { target: { value: any; }; }) => {
@@ -15,7 +14,7 @@ export function Translator() {
 
     return (
         <div>
-            <select id="language-select" onChange={handleChange} className='text-black p-2 border rounded-md dark:bg-black dark:text-white border-primary'>
+            <select id="language-select" onChange={handleChange} defaultValue={searchParams.get('locale') || 'en'} className='text-black p-2 border rounded-md dark:bg-black dark:text-white border-primary'>
                 <option value="" disabled selected>languages</option>
                 <option value="en">English</option>
                 <option value="fr">French</option>
@@ -25,4 +24,5 @@ export function Translator() {
     );
 }
 
+export default Translator;
 
