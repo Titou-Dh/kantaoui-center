@@ -1,4 +1,5 @@
-import { NextIntlClientProvider } from 'next-intl';
+"use client";
+import { AbstractIntlMessages, NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { Providers } from './providers';
 import { Navbar } from '@/components/navbar';
@@ -19,14 +20,24 @@ export const metadata = {
     },
 };
 
-export default async function RootLayout({ children, params: { locale } }: {
+type RootLayoutProps = {
     children: React.ReactNode;
     params: { locale: string };
-}) {
-    const messages = await getMessages();
+    messages: AbstractIntlMessages;
+}
+
+// Ensure RootLayout is an async function
+export default function RootLayout({
+    children,
+    params: { locale },
+    messages,
+}: RootLayoutProps) {
+    // Fetch messages for the current locale
+    // const messages = await getMessages({locale});
 
     return (
         <html suppressHydrationWarning lang={locale}>
+
             <head>
                 <meta charSet="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -40,7 +51,10 @@ export default async function RootLayout({ children, params: { locale } }: {
                     fontSans.variable
                 )}
             >
-                <NextIntlClientProvider messages={messages}>
+                <NextIntlClientProvider
+                    messages={messages}
+                    locale={locale}
+                >
                     <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
                         <div className="relative">
                             <Navbar />

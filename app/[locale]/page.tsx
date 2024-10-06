@@ -7,7 +7,7 @@ import Stats from "@/components/Stats";
 
 export default function Home() {
   return (
-    <section className="">
+    <section >
       <Hero />
       <About />
       <Stats />
