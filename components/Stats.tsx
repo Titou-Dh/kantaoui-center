@@ -1,3 +1,5 @@
+"use client";
+
 import { Card } from "@nextui-org/card";
 import { JSX, SVGProps } from "react";
 

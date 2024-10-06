@@ -1,3 +1,5 @@
+"use client";
+
 import { WifiIcon, CarIcon, ResortIcon } from "./icons";
 import { useTranslations } from "next-intl";
 
