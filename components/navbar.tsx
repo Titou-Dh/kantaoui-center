@@ -15,8 +15,8 @@ import Image from "next/image";
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
-import Translater from "@/components/Translater";
-// import GoogleTranslate from "./translater";
+import {Translater} from "@/components/Translater";
+
 
 
 export const Navbar = () => {

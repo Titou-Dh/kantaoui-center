@@ -1,8 +1,8 @@
-'use client'; // Ensure it's a client component
+'use client'; 
 
 import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 
-function Translater() {
+export function Translater() {
     const router = useRouter();
     const pathname = usePathname();
     const searchParams = useSearchParams();
@@ -25,4 +25,4 @@ function Translater() {
     );
 }
 
-export default Translater;
+
