@@ -6,43 +6,169 @@
     "About": {
         "title": "About",
         "paragraph": "the hotel offers four stars accommodation, 346 rooms and suites renovated with all modern commodities i.e satellite TV, Deposit box, telephone, Mini bar, air conditioning.",
-        "more":"View more",
-        "stat":{
-            "location":"location",
-            "midtown":"midtown",
-            "drive":"drive from city center",
-            "minutes":"minutes",
-            "rooms":"Luxury rooms",
-            "pools":"Swimming pools",
-            "airport1":"from the international airport of Monastir",
-            "airport2":"from the international airport of Enfidha",
-            "beach":"from the beach \"Port El Kantaoui\""
+        "more": "View more",
+        "stat": {
+            "location": "location",
+            "midtown": "midtown",
+            "drive": "drive from city center",
+            "minutes": "minutes",
+            "rooms": "Luxury rooms",
+            "pools": "Swimming pools",
+            "airport1": "from the international airport of Monastir",
+            "airport2": "from the international airport of Enfidha",
+            "beach": "from the beach \"Port El Kantaoui\""
         }
     },
-    "Why":{
-        "titre":"Why you should choose us",
-        "freeWifi":{
-            "title":"Free Wifi",
-            "message":"Get the best internet facility in the town."
+    "Why": {
+        "titre": "Why you should choose us",
+        "freeWifi": {
+            "title": "Free Wifi",
+            "message": "Get the best internet facility in the town."
         },
-        "freeParking":{
-            "title":"Free Parking",
-            "message":"Get the best parking facility in the town."
+        "freeParking": {
+            "title": "Free Parking",
+            "message": "Get the best parking facility in the town."
         },
-        "ressort":{
-            "title":"Ressort view",
-            "message":"Get the best view in the town."
+        "ressort": {
+            "title": "Ressort view",
+            "message": "Get the best view in the town."
         }
     },
-    "Where":{
+    "Where": {
         "title": "Where you Find us",
-        "paragraph":"EL Kantaoui Center situated in the heart of the first resort of Tunisia port el kantaoui IO mn drive to the city center of Sousse 15Km from international airport of Monastir and 30 Km from the international airport of Enfidha. Near by a marina , various shops , bars , cafes , restaurants amusement park and funfairs . tennis , diving club , leisure port , golf course (PGA classified) Night clubs, etc."
-
+        "paragraph": "EL Kantaoui Center situated in the heart of the first resort of Tunisia port el kantaoui IO mn drive to the city center of Sousse 15Km from international airport of Monastir and 30 Km from the international airport of Enfidha. Near by a marina , various shops , bars , cafes , restaurants amusement park and funfairs . tennis , diving club , leisure port , golf course (PGA classified) Night clubs, etc."
     },
-    "Facilities":{
-        "title":"Facilities",
-        "paragraph":"We want your stay at our lush hotel to be truly unforgettable. That is why we give special attention to all of your needs so that we can ensure an experience quite uniquw. Luxury hotels offers the perfect setting with stunning views for leisure and our modern luxury resort facilities will help you enjoy the best of all."
+    "Facilities": {
+        "title": "Facilities",
+        "paragraph": "We want your stay at our lush hotel to be truly unforgettable. That is why we give special attention to all of your needs so that we can ensure an experience quite uniquw. Luxury hotels offers the perfect setting with stunning views for leisure and our modern luxury resort facilities will help you enjoy the best of all.",
+        "hotel_info": {
+            "checkin_checkout": "Check in: 14h OO  - Check out: As per the international standards, guests are requested to release the room on the day of their departure at 12:00am. However, guests can still leave their luggage in the room designated by the reception if needed.",
+            "services_offered": "The Reception offers you the following services:",
+            "doctor_pharmacy": "Doctor & Pharmacy: inquire at Reception",
+            "inroom_safes": "In-room Safes: 2 TND per day and a deposit of 25 TND will be paid in advance.",
+            "safes_disclaimer": "The hotel will NOT be liable for valuables deposited outside our safes.",
+            "exchange_service": "Exchange Service",
+            "credit_cards": "Credit Cards types Accepted: Visa, Master Card",
+            "mail_service": "Mail Service: During your absence, we will keep your mail and will take note of any messages delivered to you.",
+            "repairs": "Repairs: We hope that your room will give you complete satisfaction. If during your stay you notice any lack, please report it to the reception and we will take care of it as soon as possible.",
+            "general_info": "Hotel El Kantaoui Center has 346 single, double, triple, and quadruple rooms, divided into 3 blocks, equipped with 7 lifts. Each block has 4 floors. The coveted rooms share space and sunshine, all air-conditioned, equipped with phones, satellite TV, a safe (extra charge), mini bar, hair dryer, and a balcony or terrace. The approximate surface area of the rooms, studios, and apartments, including the balcony or terrace, varies between 28m² and 80m².",
+            "air_conditioning": "Air conditioning: For proper operation of the air conditioning, please ensure that the doors and windows are well closed.",
+            "room_maid_service": "Room Maid Service: Your room will be cleaned and arranged daily. Please use the 'Do not disturb' door hanger if you would like to rest and have it cleaned later. Towels are for room use only. If needed for the beach or the pool, please contact the Reception (a deposit of 10 TND per towel).",
+            "laundry_service": "Laundry service: This service takes up to 48 hours. The linen is delivered before 10:00.",
+            "tv_remote": "TV Remote: Available at the Reception (deposit of 20 TND).",
+            "wakeup_call": "Wakeup Call: Please arrange with the Reception."
+        },
+        "restaurant_info": {
+            "restaurant": "Restaurant",
+            "menu_info": "The restaurant offers a rich menu that includes different dishes, salads, and pastries, all fresh and tasty. Open from 5:00 PM until midnight.",
+            "description": "The hotel's main Restaurant offers a rich buffet and a show cooking service.",
+            "timing": {
+                "breakfast": "Breakfast: from 6:30 AM to 10:00 AM",
+                "lunch": "Lunch: from 12:30 PM to 2:00 PM",
+                "dinner": "Dinner: from 6:30 PM to 8:00 PM"
+            },
+            "access_info": "Presenting a Resident Access Card is required at the entrance of the restaurant (bracelet required).",
+            "rules": {
+                "non_smoking": "Inside, the restaurant area is entirely non-smoking.",
+                "no_takeaway": "It is strictly forbidden to take food, drinks, and equipment out of the restaurant."
+            },
+            "note": "NB: It is recommended that you order your drinks before heading to the buffet to speed up the service (Extra Drinks).",
+            "ken_zmen_info": "Ken Zmen is a Tunisian restaurant that offers a variety of traditional dishes in a warm and friendly atmosphere."
+        },
+        "bars_and_cafes": {
+            "heading": "Bars & Cafes",
+            "accordion_items": {
+                "juliette": {
+                    "title": "Salon de Thé (Cafe & Lounge) Juliette",
+                    "phone": "6016",
+                    "description": "Juliette Tea lounge offers a rich menu (coffee, tea, juices of different kinds) and a pastry of high range in a good family atmosphere. Open from 07:00 to 00:00."
+                },
+                "niagra": {
+                    "title": "Niagara",
+                    "phone": "6033",
+                    "description": "Located on the 1st floor, opening on the outdoor pool, this snack is known for its fast and light menu. (Open during the Summer Season) Ideal for a quick snack or drink by the pool. Open from 10:00 AM until 00:00."
+                },
+                "kalven": {
+                    "title": "Kalven club / dancing bar",
+                    "phone": "6017",
+                    "description": "A soft and captivating atmosphere, an alternative music, a pure moment of relaxation and well-being. A trendy club. Open from 8:00 PM to 2:00 AM."
+                },
+                "doxa": {
+                    "title": "Doxa",
+                    "phone": "6036",
+                    "description": "The right place to enjoy a beautiful setting and good atmosphere, famous for its cocktails, Tapas, and Shooters with live Bands. Ideal place for lovers of tranquility and privacy. Open from 5:00 PM to 2:00 AM."
+                },
+                "hookah": {
+                    "title": "Hookah",
+                    "phone": "6034",
+                    "description": "A marriage of scents and typical colors, a main place of delicacies (Shisha and Turkish coffee to be savored in a very oriental atmosphere). Open from 6:00 PM to 2:00 AM."
+                }
+            }
+        },
+        "beach": "Beach",
+        "beach_description": "Beautiful private, fine sand beach located at 250m from the 'hötel, equipped with parasols, deckchairs and mattresses free for hotel guests (water sports nearby with extra fee).",
+        "entertainment": "Entertainment",
+        "entertainmentProgram": {
+            "title": "Entertainment Program",
+            "description": "You can view our daytime and nighttime entertainment programs on the Reception bulletin board.",
+            "daytimeEntertainment": "Daytime entertainment: aperitif games, darts, dance classes, aqua-gym, gymnastics, beach, volleyball.",
+            "nightlife": {
+                "title": "Nightlife",
+                "description": "These activities take place on stage at the lower level in winter and at the edge of the outdoor pool in summer and also touch all categories of ages.",
+                "miniDisco": "Mini disco for your children from 9pm to 9:30pm followed by various shows."
+            }
+        },
+        "sport": {
+            "title": "Sport",
+            "description": "Discover nearby opportunities to practice Tennis, Horse Riding, Windsurfing, Sailing, Water Skiing, and Golf or just enjoy a simple stroll. Please contact Reception for better information or bookings."
+        },
+        "pools": {
+            "title": "Pools",
+            "description": "The hotel has two swimming pools:",
+            "pools1": "An outdoor swimming pool located on the 1st floor",
+            "pools2":"A heated indoor swimming pool located on the lower level",
+            "guardedHours": "Pools are guarded from 09:00 to 19:00. Children must be accompanied at all times by their parents while swimming."
+        },
+        "otherServices": {
+            "title": "Other Services (Extras)",
+            "conference":"Conference facilities",
+            "gym":"Gym: on the lower level",
+            "drugstore":"Drugstore"       
+        },
+        "goodToKnow": {
+            "title": "Good to Know",
+            "items": {
+                "elevator":{
+                    "label": "Elevators",
+                    "description": "Elevators are strictly not allowed for unaccompanied children."
+                },
+                "pets":{
+                    "label": "Pets",
+                    "description": "Pets are not allowed in the hotel."
+                },
+                "quiet":{
+                    "label": "Keeping it quiet",
+                    "description": "It is requested throughout the hotel to ensure rest for all guests. Avoid slamming doors or making excessive noise, especially in the corridors."
+                },
+                "dress_code":{
+                    "label": "Dress code in common premises",
+                    "description": "It is strictly not allowed to access common areas such as Restaurants, Bars, and Reception in wet bathing suits, with a naked torso, or barefoot."
+                },
+                "baby-cot": {
+                    "label": "Baby Cot",
+                    "description": "Please contact the reception to have a baby cot placed in your room."
+                },
+                "meeting":{
+                    "label": "Meetings, seminars, conferences, and exhibitions",
+                    "description": "The hotel offers an ideal environment for your events with a multi-purpose room (with a capacity of up to 300 individuals) and breakout rooms."
+                },
+                "currency":{
+                    "label": "Currency and Currency Exchange, ATM Machine, Car Rental",
+                    "description": "All available 24 hours at the Reception."
+                }
+            },
+            "suggestions": "For all your suggestions and comments, do not hesitate to contact us. Our goal is to make your stay a real pleasure and an unforgettable experience. Please inform the Reception if you encounter any inconvenience during your stay. We will do our best to remedy it as quickly and efficiently as possible.",
+            "teamWish": "The entire team of the hotel wishes you a pleasant stay."
+        }
     }
-
-
 }

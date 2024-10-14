@@ -22,7 +22,7 @@ function Translator() {
     const handleChange = (event: { target: { value: any; }; }) => {
         const newLocale = event.target.value;
         setSelectedLocale(newLocale); // Update state
-        router.push(`/${newLocale}`);
+        router.push(`/${newLocale}/${pathParts.slice(2).join('/')}`); // Update the URL
     };
 
 
