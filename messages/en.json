@@ -77,34 +77,33 @@
         },
         "bars_and_cafes": {
             "heading": "Bars & Cafes",
-            "accordion_items": {
-                "juliette": {
-                    "title": "Salon de Thé (Cafe & Lounge) Juliette",
-                    "phone": "6016",
-                    "description": "Juliette Tea lounge offers a rich menu (coffee, tea, juices of different kinds) and a pastry of high range in a good family atmosphere. Open from 07:00 to 00:00."
-                },
-                "niagra": {
-                    "title": "Niagara",
-                    "phone": "6033",
-                    "description": "Located on the 1st floor, opening on the outdoor pool, this snack is known for its fast and light menu. (Open during the Summer Season) Ideal for a quick snack or drink by the pool. Open from 10:00 AM until 00:00."
-                },
-                "kalven": {
-                    "title": "Kalven club / dancing bar",
-                    "phone": "6017",
-                    "description": "A soft and captivating atmosphere, an alternative music, a pure moment of relaxation and well-being. A trendy club. Open from 8:00 PM to 2:00 AM."
-                },
-                "doxa": {
-                    "title": "Doxa",
-                    "phone": "6036",
-                    "description": "The right place to enjoy a beautiful setting and good atmosphere, famous for its cocktails, Tapas, and Shooters with live Bands. Ideal place for lovers of tranquility and privacy. Open from 5:00 PM to 2:00 AM."
-                },
-                "hookah": {
-                    "title": "Hookah",
-                    "phone": "6034",
-                    "description": "A marriage of scents and typical colors, a main place of delicacies (Shisha and Turkish coffee to be savored in a very oriental atmosphere). Open from 6:00 PM to 2:00 AM."
-                }
+            "juliette": {
+                "title": "Salon de Thé (Cafe & Lounge) Juliette",
+                "phone": "6016",
+                "description": "Juliette Tea lounge offers a rich menu (coffee, tea, juices of different kinds) and a pastry of high range in a good family atmosphere. Open from 07:00 to 00:00."
+            },
+            "niagra": {
+                "title": "Niagara",
+                "phone": "6033",
+                "description": "Located on the 1st floor, opening on the outdoor pool, this snack is known for its fast and light menu. (Open during the Summer Season) Ideal for a quick snack or drink by the pool. Open from 10:00 AM until 00:00."
+            },
+            "kalven": {
+                "title": "Kalven club / dancing bar",
+                "phone": "6017",
+                "description": "A soft and captivating atmosphere, an alternative music, a pure moment of relaxation and well-being. A trendy club. Open from 8:00 PM to 2:00 AM."
+            },
+            "doxa": {
+                "title": "Doxa",
+                "phone": "6036",
+                "description": "The right place to enjoy a beautiful setting and good atmosphere, famous for its cocktails, Tapas, and Shooters with live Bands. Ideal place for lovers of tranquility and privacy. Open from 5:00 PM to 2:00 AM."
+            },
+            "hookah": {
+                "title": "Hookah",
+                "phone": "6034",
+                "description": "A marriage of scents and typical colors, a main place of delicacies (Shisha and Turkish coffee to be savored in a very oriental atmosphere). Open from 6:00 PM to 2:00 AM."
             }
         },
+        "bars": {},
         "beach": "Beach",
         "beach_description": "Beautiful private, fine sand beach located at 250m from the 'hötel, equipped with parasols, deckchairs and mattresses free for hotel guests (water sports nearby with extra fee).",
         "entertainment": "Entertainment",
@@ -126,31 +125,31 @@
             "title": "Pools",
             "description": "The hotel has two swimming pools:",
             "pools1": "An outdoor swimming pool located on the 1st floor",
-            "pools2":"A heated indoor swimming pool located on the lower level",
+            "pools2": "A heated indoor swimming pool located on the lower level",
             "guardedHours": "Pools are guarded from 09:00 to 19:00. Children must be accompanied at all times by their parents while swimming."
         },
         "otherServices": {
             "title": "Other Services (Extras)",
-            "conference":"Conference facilities",
-            "gym":"Gym: on the lower level",
-            "drugstore":"Drugstore"       
+            "conference": "Conference facilities",
+            "gym": "Gym: on the lower level",
+            "drugstore": "Drugstore"
         },
         "goodToKnow": {
             "title": "Good to Know",
             "items": {
-                "elevator":{
+                "elevator": {
                     "label": "Elevators",
                     "description": "Elevators are strictly not allowed for unaccompanied children."
                 },
-                "pets":{
+                "pets": {
                     "label": "Pets",
                     "description": "Pets are not allowed in the hotel."
                 },
-                "quiet":{
+                "quiet": {
                     "label": "Keeping it quiet",
                     "description": "It is requested throughout the hotel to ensure rest for all guests. Avoid slamming doors or making excessive noise, especially in the corridors."
                 },
-                "dress_code":{
+                "dress_code": {
                     "label": "Dress code in common premises",
                     "description": "It is strictly not allowed to access common areas such as Restaurants, Bars, and Reception in wet bathing suits, with a naked torso, or barefoot."
                 },
@@ -158,11 +157,11 @@
                     "label": "Baby Cot",
                     "description": "Please contact the reception to have a baby cot placed in your room."
                 },
-                "meeting":{
+                "meeting": {
                     "label": "Meetings, seminars, conferences, and exhibitions",
                     "description": "The hotel offers an ideal environment for your events with a multi-purpose room (with a capacity of up to 300 individuals) and breakout rooms."
                 },
-                "currency":{
+                "currency": {
                     "label": "Currency and Currency Exchange, ATM Machine, Car Rental",
                     "description": "All available 24 hours at the Reception."
                 }

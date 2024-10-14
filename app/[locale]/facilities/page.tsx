@@ -129,24 +129,68 @@ const Page = () => {
             </AccordionItem>
           </Accordion>
           <h1 className="text-3xl text-center my-12 pt-8 pb-4 text-primary ">
-            Bars & Cafes
+            {t('bars_and_cafes.heading')}
           </h1>
           <Accordion variant="splitted" className="my-8">
-            {
+            {/* {
               keys.map((key) => (
                 <AccordionItem
                   key={key}
                   aria-label={`Accordion ${key}`}
                   title={
                     <span className="flex items-center gap-2">
-                      {t(`bars_and_cafes.accordion_items.${key}.title`)} <PhoneIcon color="#fff" height={16} width={16} />  {t(`bars_and_cafes.accordion_items.${key}.phone`)}
+                      {t(`bars.${key}.title`)} <PhoneIcon color="#fff" height={16} width={16} />  {t(`bars_and_cafes.accordion_items.${key}.phone`)}
                     </span>
                   }
                 >
                   {t(`bars_and_cafes.accordion_items.${key}.description`)}
                 </AccordionItem>
               ))
-            }
+            } */}
+            <AccordionItem
+              key="11"
+              aria-label={`Accordion`}
+              title={
+                <span className="flex items-center gap-2">
+                  {t(`bars_and_cafes.juliette.title`)} <PhoneIcon color="#fff" height={16} width={16} />  {t(`bars_and_cafes.juliette.phone`)}
+                </span>
+              }
+            >
+              {t(`bars_and_cafes.juliette.description`)}
+            </AccordionItem>
+            <AccordionItem
+              key="22"
+              aria-label={`Accordion`}
+              title={
+                <span className="flex items-center gap-2">
+                  {t(`bars_and_cafes.niagra.title`)} <PhoneIcon color="#fff" height={16} width={16} />  {t(`bars_and_cafes.niagra.phone`)}
+                </span>
+              }
+            >
+              {t(`bars_and_cafes.niagra.description`)}
+            </AccordionItem>
+            <AccordionItem
+              key="33"
+              aria-label={`Accordion`}
+              title={
+                <span className="flex items-center gap-2">
+                  {t(`bars_and_cafes.kalven.title`)} <PhoneIcon color="#fff" height={16} width={16} />  {t(`bars_and_cafes.kalven.phone`)}
+                </span>
+              }
+            >
+              {t(`bars_and_cafes.kalven.description`)}
+            </AccordionItem>
+            <AccordionItem
+              key="44"
+              aria-label={`Accordion`}
+              title={
+                <span className="flex items-center gap-2">
+                  {t(`bars_and_cafes.doxa.title`)} <PhoneIcon color="#fff" height={16} width={16} />  {t(`bars_and_cafes.doxa.phone`)}
+                </span>
+              }
+            >
+              {t(`bars_and_cafes.doxa.description`)}
+            </AccordionItem>
           </Accordion>
         </div>
 
