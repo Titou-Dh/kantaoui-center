@@ -22,11 +22,10 @@ import { ThemeSwitch } from "@/components/theme-switch";
 export const Navbar = () => {
   const pathname = usePathname();
   const pathParts = pathname.split('/');
+  const newLocale: 'en' | 'de' | 'fr' = (pathParts[1] as 'en' | 'de' | 'fr') || 'en';
   const router = useRouter();
 
-
   const handleClick = (href: string) => () => {
-    const newLocale = pathParts[1] || 'en';
     router.push(`/${newLocale}/${href}`);
   }
 
@@ -56,7 +55,7 @@ export const Navbar = () => {
                 color="foreground"
                 onClick={handleClick(item.href)}
               >
-                {item.label}
+                {item.label[newLocale]}
               </div>
             </NavbarItem>
           ))}
@@ -73,7 +72,7 @@ export const Navbar = () => {
           {siteConfig.navMenuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
               <div className="text-lg cursor-pointer" onClick={handleClick(item.href)}>
-                {item.label}
+                {item.label[newLocale]}
               </div>
             </NavbarMenuItem>
           ))}
