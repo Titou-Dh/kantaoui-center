@@ -8,11 +8,11 @@ import {
   NavbarMenuItem,
 } from "@nextui-org/navbar";
 
-import Translator  from "@/components/Translator";
-import { Link } from "@nextui-org/link";
+import Translator from "@/components/Translator";
 import NextLink from "next/link";
 import clsx from "clsx";
 import Image from "next/image";
+import { usePathname, useRouter } from 'next/navigation';
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
@@ -20,8 +20,18 @@ import { ThemeSwitch } from "@/components/theme-switch";
 
 
 export const Navbar = () => {
+  const pathname = usePathname();
+  const pathParts = pathname.split('/');
+  const router = useRouter();
+
+
+  const handleClick = (href: string) => () => {
+    const newLocale = pathParts[1] || 'en';
+    router.push(`/${newLocale}/${href}`);
+  }
+
   return (
-    <NextUINavbar isBordered maxWidth="xl" className="text-primary-50 shadow-lg" position="sticky">
+    <><NextUINavbar isBordered maxWidth="xl" className="text-primary-50 shadow-lg" position="sticky">
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
@@ -39,40 +49,37 @@ export const Navbar = () => {
 
           {siteConfig.navItems.map((item) => (
             <NavbarItem key={item.href}>
-              <NextLink
+              <div
                 className={clsx(
-                  "data-[active=true]:text-primary data-[active=true]:font-medium  ",
+                  "data-[active=true]:text-primary data-[active=true]:font-medium cursor-pointer "
                 )}
                 color="foreground"
-                href={item.href}
+                onClick={handleClick(item.href)}
               >
                 {item.label}
-              </NextLink>
+              </div>
             </NavbarItem>
           ))}
         </ul>
-      </NavbarContent>
-      <NavbarContent className="basis-1/5 hidden md:flex sm:basis-full" justify="end">
+      </NavbarContent><NavbarContent className="basis-1/5 hidden md:flex sm:basis-full" justify="end">
         <ThemeSwitch />
         <Translator />
-      </NavbarContent>
-      <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
+      </NavbarContent><NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
         <ThemeSwitch />
         <NavbarMenuToggle />
         <Translator />
-      </NavbarContent>
-
-      <NavbarMenu>
+      </NavbarContent><NavbarMenu>
         <div className="mx-4 mt-2 flex flex-col gap-2">
           {siteConfig.navMenuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
-              <Link className="text-lg" href={item.href} size="lg">
+              <div className="text-lg cursor-pointer" onClick={handleClick(item.href)}>
                 {item.label}
-              </Link>
+              </div>
             </NavbarMenuItem>
           ))}
         </div>
       </NavbarMenu>
     </NextUINavbar>
+    </>
   );
 };

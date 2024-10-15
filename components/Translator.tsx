@@ -18,13 +18,14 @@ function Translator() {
         const currentLocale = pathParts[1] || 'en';
         setSelectedLocale(currentLocale);
     }, [searchParams]);
-
+    
     const handleChange = (event: { target: { value: any; }; }) => {
         const newLocale = event.target.value;
         setSelectedLocale(newLocale); // Update state
         router.push(`/${newLocale}/${pathParts.slice(2).join('/')}`); // Update the URL
     };
-
+    
+    console.log(pathParts);
 
 
     return (

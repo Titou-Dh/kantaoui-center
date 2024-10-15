@@ -9,7 +9,7 @@ export const config = {
         '/',                        // Root path
         '/(de|en|fr)/',              // Internationalized root path
         '/facilities',               // Path without language prefix
-        '/(de|en|fr)/facilities',     // Internationalized 'facilities' path
+        '/(en|de|fr)/facilities',     // Internationalized 'facilities' path
         '/contact',                  // Path without language prefix
         '/(de|en|fr)/contact',        // Internationalized 'contact' path
         '/:locale(facilities|contact)',  // Language detection for the specific paths
