@@ -169,5 +169,12 @@
             "suggestions": "For all your suggestions and comments, do not hesitate to contact us. Our goal is to make your stay a real pleasure and an unforgettable experience. Please inform the Reception if you encounter any inconvenience during your stay. We will do our best to remedy it as quickly and efficiently as possible.",
             "teamWish": "The entire team of the hotel wishes you a pleasant stay."
         }
+    },
+    "Contact": {
+        "title": "Get in Touch",
+        "paragraph": "Have a question or need assistance? Don't hesitate to reach out. We're here to help.",
+        "address": "Address",
+        "phone": "Phone",
+        "email": "Email"
     }
 }

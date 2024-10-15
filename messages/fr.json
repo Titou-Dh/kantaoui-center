@@ -169,5 +169,13 @@
             "suggestions": "Pour toutes vos suggestions et commentaires, n'hésitez pas à nous contacter. Notre objectif est de rendre votre séjour un véritable plaisir et une expérience inoubliable. Veuillez informer la Réception si vous rencontrez un inconvénient pendant votre séjour. Nous ferons de notre mieux pour y remédier rapidement et efficacement.",
             "teamWish": "Toute l'équipe de l'hôtel vous souhaite un agréable séjour."
         }
-    }
+    },
+    "Contact": {
+    "title": "Prenez Contact",
+    "paragraph": "Vous avez une question ou besoin d'assistance ? N'hésitez pas à nous contacter. Nous sommes là pour vous aider.",
+    "address": "Adresse",
+    "phone": "Téléphone",
+    "email": "E-mail"
+}
+
 }

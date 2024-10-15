@@ -169,5 +169,13 @@
             "suggestions": "Für alle Ihre Vorschläge und Kommentare zögern Sie nicht, uns zu kontaktieren. Unser Ziel ist es, Ihren Aufenthalt zu einem echten Vergnügen und einem unvergesslichen Erlebnis zu machen. Bitte informieren Sie die Rezeption, wenn Sie während Ihres Aufenthalts Unannehmlichkeiten feststellen. Wir werden unser Bestes tun, um diese so schnell und effizient wie möglich zu beheben.",
             "teamWish": "Das gesamte Team des Hotels wünscht Ihnen einen angenehmen Aufenthalt."
         }
-    }
+    },
+    "Contact": {
+    "title": "Kontaktieren Sie uns",
+    "paragraph": "Haben Sie eine Frage oder benötigen Sie Hilfe? Zögern Sie nicht, uns zu kontaktieren. Wir sind hier, um zu helfen.",
+    "address": "Adresse",
+    "phone": "Telefon",
+    "email": "E-Mail"
+}
+
 }
