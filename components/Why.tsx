@@ -9,7 +9,7 @@ const Why = () => {
         <div className="dark:bg-primaryBg">
             <div className="text-center py-12 ">
                 <h1 className="text-4xl capitalize font-bold" data-aos="fade-right">
-                    {t("titre")}
+                    {t("title")}
                 </h1>
             </div>
             <div className="flex flex-col md:flex-row items-center justify-around md:pl-40 pl-2 py-8  ">
