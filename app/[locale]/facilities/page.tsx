@@ -11,7 +11,7 @@ import { useTranslations } from "next-intl";
 const Page = () => {
   const t = useTranslations("Facilities");
   const keys = ["juliette", "niagra", "kalven", "doxa", "hookah"] as const
-  const goodToKnowKeys = ["elevator", "pets", "quiet", "dress_code", "baby-cot", "meeting", "currency"] as const;
+  const goodToKnowKeys = ["elevator", "pets", "quiet", "dress_code", "baby-cot",  "currency"] as const;
   return (
     <div className="min-h-screen dark:bg-primaryBg pb-12 px-10 md:px-40 leading-relaxed">
       <h1 className="text-5xl text-center pt-8 pb-4 text-primary ">
@@ -107,7 +107,7 @@ const Page = () => {
               aria-label="Accordion 2"
               title={
                 <span className="flex items-center gap-2">
-                  The Space <PhoneIcon color="#fff" height={16} width={16} />  6016
+                  The Space (resto & lounge) <PhoneIcon color="#fff" height={16} width={16} />  6016
                 </span>
               }
             >
@@ -129,21 +129,18 @@ const Page = () => {
             {t('bars_and_cafes.heading')}
           </h1>
           <Accordion variant="splitted" className="my-8">
-            {/* {
-              keys.map((key) => (
-                <AccordionItem
-                  key={key}
-                  aria-label={`Accordion ${key}`}
-                  title={
-                    <span className="flex items-center gap-2">
-                      {t(`bars.${key}.title`)} <PhoneIcon color="#fff" height={16} width={16} />  {t(`bars_and_cafes.accordion_items.${key}.phone`)}
-                    </span>
-                  }
-                >
-                  {t(`bars_and_cafes.accordion_items.${key}.description`)}
-                </AccordionItem>
-              ))
-            } */}
+              <AccordionItem
+                key="1"
+                aria-label={`Accordion`}
+                title={
+                  <span className="flex items-center gap-2">
+                    EL Chedlia  <PhoneIcon color="#fff" height={16} width={16} />  6034
+                  </span>
+                }
+              >
+                {t(`bars_and_cafes.el_chedlia.description`)}
+              </AccordionItem>
+
             <AccordionItem
               key="11"
               aria-label={`Accordion`}
@@ -256,8 +253,9 @@ const Page = () => {
 
           <h2 className="text-2xl font-bold text-primary mb-4">{t('otherServices.title')}</h2>
           <ul className="list-disc list-inside mb-8">
-            <li>{t('otherServices.conference')}</li>
+            <li>{t('otherServices.conference')}{": "}<span className="list-none text-gray-300">{t('otherServices.conferenceDescription')}</span></li>
             <li>{t('otherServices.gym')}</li>
+            <li>{t('otherServices.boutique')}</li>
             <li>{t('otherServices.drugstore')}</li>
           </ul>
 
@@ -272,56 +270,6 @@ const Page = () => {
           <p className="mb-8">{t('goodToKnow.suggestions')}</p>
           <p className="mb-8">{t('goodToKnow.teamWish')}</p>
         </div>
-
-        {/* 
-        <Card
-          isFooterBlurred
-          radius="lg"
-          className="border-none my-8 "
-        >
-          <Image
-            alt="Bar"
-            className="object-cover w-full"
-            height={1920}
-            src="/facility4.png"
-            width={1080}
-          />
-          <CardFooter className=" before:bg-white/10  border-white/20 border-1 overflow-hidden py-3 absolute before:rounded-xl rounded-large bottom-1 w-full font-bold shadow-small ml-1 z-10 text-center">
-            <div className="w-full text-center  text-primary text-2xl">Bar</div>
-          </CardFooter>
-        </Card>
-        <Card
-          isFooterBlurred
-          radius="lg"
-          className="border-none my-8 "
-        >
-          <Image
-            alt="Restaurant"
-            className="object-cover w-full"
-            height={1920}
-            src="/facility5.png"
-            width={1080}
-          />
-          <CardFooter className=" before:bg-white/10  border-white/20 border-1 overflow-hidden py-3 absolute before:rounded-xl rounded-large bottom-1 w-full font-bold shadow-small ml-1 z-10 text-center">
-            <div className="w-full text-center  text-primary text-2xl">Restaurant</div>
-          </CardFooter>
-        </Card>
-        <Card
-          isFooterBlurred
-          radius="lg"
-          className="border-none my-8 "
-        >
-          <Image
-            alt="Conference Room"
-            className="object-cover w-full"
-            height={1920}
-            src="/facility6.png"
-            width={1080}
-          />
-          <CardFooter className=" before:bg-white/10  border-white/20 border-1 overflow-hidden py-3 absolute before:rounded-xl rounded-large bottom-1 w-full font-bold shadow-small ml-1 z-10 text-center">
-            <div className="w-full text-center  text-primary text-2xl">Laundry</div>
-          </CardFooter>
-        </Card> */}
 
       </div>
     </div>

@@ -101,15 +101,20 @@
                 "title": "Hookah",
                 "phone": "6034",
                 "description": "Un mariage de senteurs et de couleurs typiques, un lieu principal de délices (Shisha et café turc à savourer dans une ambiance très orientale). Ouvert de 18h00 à 02h00."
+            },
+            "el_chedlia": {
+                "title": "El Chedlia",
+                "phone": "6034",
+                "description": "Un mariage de senteurs et de couleurs typiques, un lieu principal de délices (Shisha et café turc à savourer dans une ambiance très orientale). Ouvert de 15h00 à 04h30."
             }
         },
         "bars": {},
         "beach": "Plage",
-        "beach_description": "Belle plage privée de sable fin située à 250m de l'hôtel, équipée de parasols, de chaises longues et de matelas gratuits pour les clients de l'hôtel (sports nautiques à proximité avec supplément).",
+        "beach_description": "Belle plage privée de sable fin située à 250m de l'hôtel, équipée de parasols, de chaises longues et de matelas gratuits pour les clients de l'hôtel (sports nautiques à proximité, payants).",
         "entertainment": "Divertissement",
         "entertainmentProgram": {
             "title": "Programme de divertissement",
-            "description": "Vous pouvez consulter nos programmes de divertissement diurnes et nocturnes sur le tableau d'affichage de la Réception.",
+            "description": "Vous pouvez consulter nos programmes de animation diurne et nocturne sur le tableau d'affichage de la Réception.",
             "daytimeEntertainment": "Divertissement diurne : jeux d'apéritif, fléchettes, cours de danse, aqua-gym, gymnastique, plage, volley-ball.",
             "nightlife": {
                 "title": "Vie nocturne",
@@ -119,20 +124,22 @@
         },
         "sport": {
             "title": "Sport",
-            "description": "Découvrez les opportunités à proximité pour pratiquer le tennis, l'équitation, la planche à voile, la voile, le ski nautique et le golf ou simplement profiter d'une simple promenade. Veuillez contacter la Réception pour de meilleures informations ou réservations."
+            "description": "Découvrez les opportunités à proximité pour pratiquer le tennis, l'équitation, la planche à voile, la voile, le ski nautique, le parachute, les sorties, les balades en mer et le golf ou simplement profiter d'une simple promenade. Veuillez contacter la Réception pour de meilleures informations ou réservations."
         },
         "pools": {
             "title": "Piscines",
             "description": "L'hôtel dispose de deux piscines :",
             "pools1": "Une piscine extérieure située au 1er étage",
-            "pools2": "Une piscine intérieure chauffée située au niveau inférieur",
+            "pools2": "Une piscine intérieure couverte chauffée située au niveau inférieur",
             "guardedHours": "Les piscines sont surveillées de 09h00 à 19h00. Les enfants doivent être accompagnés en tout temps par leurs parents pendant la baignade."
         },
         "otherServices": {
             "title": "Autres services (Extras)",
-            "conference": "Installations de conférence",
-            "gym": "Salle de sport : au niveau inférieur",
-            "drugstore": "Pharmacie"
+            "conference": "Installations de conférence: une salle polyvalente (la Marina)",
+            "conferenceDescription": "Une salle de  séminaire aménagée pour tout  vos événements : mariages,  séminairest diners gala,  anniversaires; et 5 salles de Sous  commissions",
+            "gym": "Centre de bien-être",
+            "boutique": "Boutique d'artisanat et de souvenirs",
+            "drugstore": "Drugstore"
         },
         "goodToKnow": {
             "title": "Bon à savoir",
@@ -157,10 +164,7 @@
                     "label": "Lit bébé",
                     "description": "Veuillez contacter la réception pour faire placer un lit bébé dans votre chambre."
                 },
-                "meeting": {
-                    "label": "Réunions, séminaires, conférences et expositions",
-                    "description": "L'hôtel offre un environnement idéal pour vos événements avec une salle polyvalente (d'une capacité de jusqu'à 300 personnes) et des salles de réunion."
-                },
+
                 "currency": {
                     "label": "Monnaie et change, distributeur automatique, location de voitures",
                     "description": "Tous disponibles 24 heures sur 24 à la Réception."

@@ -1,12 +1,12 @@
 {
     "Hero": {
         "title": "Hotel",
-        "paragraph": "Die Geschäftsleitung und das Personal des Hotels EL KANTAOUI CENTER heißen Sie herzlich willkommen und danken Ihnen, dass Sie unser Hotel gewählt haben. Dieser Leitfaden hilft Ihnen, sich mit den Annehmlichkeiten unseres Hotels und den von uns angebotenen Dienstleistungen vertraut zu machen. Wir laden Sie auch ein, sich für weitere Informationen an die Rezeption zu wenden. Wir wünschen Ihnen einen angenehmen Aufenthalt."
+        "paragraph": "Die Hotelleitung und das Personal des EL KANTAOUI CENTER Hotels heißen Sie herzlich willkommen und danken Ihnen, dass Sie unser Hotel gewählt haben. Dieser Leitfaden hilft Ihnen, sich mit den Einrichtungen unseres Hotels und den von uns angebotenen Dienstleistungen vertraut zu machen. Wir laden Sie auch ein, die Rezeption für weitere Informationen zu kontaktieren. Wir wünschen Ihnen einen angenehmen Aufenthalt."
     },
     "About": {
-        "title": "Über",
-        "paragraph": "Das Hotel bietet eine Vier-Sterne-Unterkunft, 346 Zimmer und Suiten, die mit allen modernen Annehmlichkeiten renoviert wurden, d.h. Satelliten-TV, Safe, Telefon, Minibar, Klimaanlage.",
-        "more": "Mehr anzeigen",
+        "title": "Über uns",
+        "paragraph": "Das Hotel bietet eine Vier-Sterne-Unterkunft, 346 renovierte Zimmer und Suiten mit allen modernen Annehmlichkeiten, wie Satelliten-TV, Safe, Telefon, Minibar, Klimaanlage.",
+        "more": "Mehr sehen",
         "stat": {
             "location": "Lage",
             "midtown": "Innenstadt",
@@ -20,118 +20,125 @@
         }
     },
     "Why": {
-        "titre": "Warum Sie uns wählen sollten",
+        "title": "Warum Sie uns wählen sollten",
         "freeWifi": {
             "title": "Kostenloses WLAN",
-            "message": "Erhalten Sie die beste Internetverbindung in der Stadt."
+            "message": "Genießen Sie die beste Internetverbindung der Stadt."
         },
         "freeParking": {
             "title": "Kostenloses Parken",
-            "message": "Erhalten Sie die beste Parkmöglichkeit in der Stadt."
+            "message": "Genießen Sie den besten Parkplatz der Stadt."
         },
         "ressort": {
-            "title": "Resortblick",
-            "message": "Genießen Sie die beste Aussicht in der Stadt."
+            "title": "Blick auf das Resort",
+            "message": "Genießen Sie den besten Blick der Stadt."
         }
     },
     "Where": {
         "title": "Wo Sie uns finden",
-        "paragraph": "Das EL Kantaoui Center liegt im Herzen des ersten Resorts von Tunesien, Port El Kantaoui, 10 Minuten Fahrt zum Stadtzentrum von Sousse, 15 km vom internationalen Flughafen Monastir und 30 km vom internationalen Flughafen Enfidha entfernt. In der Nähe befinden sich ein Yachthafen, verschiedene Geschäfte, Bars, Cafés, Restaurants, ein Vergnügungspark und Jahrmärkte, Tennis, Tauchclub, Freizeitport, Golfplatz (PGA-klassifiziert), Nachtclubs usw."
+        "paragraph": "Im Herzen des ersten Badeortes Tunesiens, Port El Kantaoui, nur 10 Minuten vom Stadtzentrum von Sousse und 15 km vom Flughafen Monastir und 30 km vom Flughafen Enfidha entfernt. In der Nähe des Yachthafens, eines Yachthafens, einer Vielzahl von Geschäften, Bars, Cafés und Restaurants, Vergnügungsparks: Wasserpark und Themenparks, einem internationalen Golfplatz, einem Tenniszentrum, einem Tauchzentrum, Nachtclubs und Lounges."
     },
     "Facilities": {
-        "title": "Einrichtungen",
-        "paragraph": "Wir möchten, dass Ihr Aufenthalt in unserem üppigen Hotel wirklich unvergesslich wird. Deshalb schenken wir all Ihren Bedürfnissen besondere Aufmerksamkeit, um ein einzigartiges Erlebnis zu gewährleisten. Luxus-Hotels bieten die perfekte Umgebung mit atemberaubenden Ausblicken für Freizeit und unsere modernen Luxus-Resort-Einrichtungen helfen Ihnen, das Beste von allem zu genießen.",
+        "title": "Unsere Einrichtungen",
+        "paragraph": "",
         "hotel_info": {
-            "checkin_checkout": "Check-in: 14:00 Uhr - Check-out: Gemäß den internationalen Standards werden die Gäste gebeten, das Zimmer am Abreisetag um 12:00 Uhr zu räumen. Die Gäste können jedoch ihr Gepäck bei Bedarf im von der Rezeption vorgesehenen Raum lassen.",
-            "services_offered": "Die Rezeption bietet Ihnen folgende Dienstleistungen:",
-            "doctor_pharmacy": "Arzt & Apotheke: Anfragen an der Rezeption",
-            "inroom_safes": "Zimmersafes: 2 TND pro Tag und eine Kaution von 25 TND wird im Voraus bezahlt.",
-            "safes_disclaimer": "Das Hotel haftet NICHT für Wertsachen, die außerhalb unserer Safes deponiert werden.",
+            "checkin_checkout": "Check-in: 14:00 Uhr - Check-out: Gemäß internationalen Standards werden die Gäste gebeten, das Zimmer am Abreisetag bis 12:00 Uhr zu räumen. Die Gäste können jedoch bei Bedarf ihr Gepäck im von der Rezeption zugewiesenen Raum lassen.",
+            "services_offered": "Die Rezeption bietet Ihnen folgende Dienstleistungen an:",
+            "doctor_pharmacy": "Arzt & Apotheke: Fragen Sie an der Rezeption nach",
+            "inroom_safes": "Safes in den Zimmern: 2 TND pro Tag und eine Kaution von 25 TND wird im Voraus bezahlt.",
+            "safes_disclaimer": "Das Hotel haftet nicht für Wertsachen, die außerhalb unserer Safes aufbewahrt werden.",
             "exchange_service": "Wechselservice",
-            "credit_cards": "Akzeptierte Kreditkartentypen: Visa, Master Card",
-            "mail_service": "Postdienst: Während Ihrer Abwesenheit bewahren wir Ihre Post auf und notieren alle an Sie übermittelten Nachrichten.",
-            "repairs": "Reparaturen: Wir hoffen, dass Ihr Zimmer Ihnen vollste Zufriedenheit bietet. Wenn Sie während Ihres Aufenthalts Mängel feststellen, melden Sie dies bitte an der Rezeption und wir kümmern uns so schnell wie möglich darum.",
-            "general_info": "Das Hotel El Kantaoui Center verfügt über 346 Einzel-, Doppel-, Dreibett- und Vierbettzimmer, die auf 3 Blöcke verteilt sind und mit 7 Aufzügen ausgestattet sind. Jeder Block hat 4 Etagen. Die begehrten Zimmer teilen sich Raum und Sonnenschein, alle klimatisiert, ausgestattet mit Telefonen, Satelliten-TV, einem Safe (gegen Gebühr), Minibar, Haartrockner und einem Balkon oder einer Terrasse. Die ungefähre Fläche der Zimmer, Studios und Apartments, einschließlich Balkon oder Terrasse, variiert zwischen 28m² und 80m².",
-            "air_conditioning": "Klimaanlage: Für den ordnungsgemäßen Betrieb der Klimaanlage stellen Sie bitte sicher, dass Türen und Fenster gut geschlossen sind.",
-            "room_maid_service": "Zimmermädchen-Service: Ihr Zimmer wird täglich gereinigt und aufgeräumt. Bitte verwenden Sie das Türschild 'Nicht stören', wenn Sie sich ausruhen und es später gereinigt haben möchten. Handtücher sind nur für den Zimmergebrauch bestimmt. Wenn Sie sie für den Strand oder den Pool benötigen, wenden Sie sich bitte an die Rezeption (eine Kaution von 10 TND pro Handtuch).",
+            "credit_cards": "Akzeptierte Kreditkarten: Visa, Master Card",
+            "mail_service": "Postdienst: Während Ihrer Abwesenheit bewahren wir Ihre Post auf und notieren alle Nachrichten, die Ihnen zugestellt werden.",
+            "repairs": "Reparaturen: Wir hoffen, dass Ihr Zimmer Ihnen vollste Zufriedenheit bietet. Wenn Sie während Ihres Aufenthalts einen Mangel bemerken, melden Sie dies bitte an der Rezeption und wir kümmern uns so schnell wie möglich darum.",
+            "general_info": "Das El Kantaoui Center Hotel verfügt über 346 Einzel-, Doppel-, Dreibett- und Vierbettzimmer, verteilt auf 3 Blöcke, ausgestattet mit 7 Aufzügen. Jeder Block hat 4 Etagen. Die begehrten Zimmer teilen sich Raum und Sonne, alle klimatisiert, ausgestattet mit Telefonen, Satelliten-TV, Safe (gegen Gebühr), Minibar, Haartrockner und Balkon oder Terrasse. Die ungefähre Fläche der Zimmer, Studios und Apartments, einschließlich Balkon oder Terrasse, variiert zwischen 28m² und 80m².",
+            "air_conditioning": "Klimaanlage: Für einen ordnungsgemäßen Betrieb der Klimaanlage stellen Sie bitte sicher, dass Türen und Fenster gut geschlossen sind.",
+            "room_maid_service": "Zimmerreinigung: Ihr Zimmer wird täglich gereinigt und aufgeräumt. Bitte verwenden Sie das 'Nicht stören'-Schild, wenn Sie sich ausruhen möchten und das Zimmer später gereinigt werden soll. Die Handtücher sind nur für den Gebrauch im Zimmer bestimmt. Wenn Sie sie für den Strand oder den Pool benötigen, wenden Sie sich bitte an die Rezeption (eine Kaution von 10 TND pro Handtuch).",
             "laundry_service": "Wäscheservice: Dieser Service dauert bis zu 48 Stunden. Die Wäsche wird vor 10:00 Uhr geliefert.",
             "tv_remote": "TV-Fernbedienung: An der Rezeption erhältlich (Kaution von 20 TND).",
             "wakeup_call": "Weckruf: Bitte arrangieren Sie dies mit der Rezeption."
         },
         "restaurant_info": {
             "restaurant": "Restaurants",
-            "menu_info": "Das Restaurant bietet ein reichhaltiges Menü mit verschiedenen Gerichten, Salaten und Gebäck, alles frisch und lecker. Geöffnet von 17:00 Uhr bis Mitternacht.",
-            "description": "Das Hauptrestaurant des Hotels bietet ein reichhaltiges Buffet und einen Show-Cooking-Service.",
+            "menu_info": "Das Restaurant bietet ein reichhaltiges Menü mit verschiedenen Gerichten, Salaten und Gebäck, alles frisch und lecker. Geöffnet von 17:00 bis Mitternacht.",
+            "description": "Das Hauptrestaurant des Hotels bietet ein reichhaltiges Buffet und Show-Cooking-Service.",
             "timing": {
-                "breakfast": "Frühstück: von 6:30 Uhr bis 10:00 Uhr",
-                "lunch": "Mittagessen: von 12:30 Uhr bis 14:00 Uhr",
-                "dinner": "Abendessen: von 18:30 Uhr bis 20:00 Uhr"
+                "breakfast": "Frühstück: von 6:30 bis 10:00 Uhr",
+                "lunch": "Mittagessen: von 12:30 bis 14:00 Uhr",
+                "dinner": "Abendessen: von 18:30 bis 20:00 Uhr"
             },
-            "access_info": "Die Vorlage einer Resident Access Card ist am Eingang des Restaurants erforderlich (Armband erforderlich).",
+            "access_info": "Die Vorlage einer Bewohnerzugangskarte ist am Eingang des Restaurants erforderlich (Armband erforderlich).",
             "rules": {
                 "non_smoking": "Im Inneren ist der Restaurantbereich vollständig rauchfrei.",
-                "no_takeaway": "Es ist strengstens verboten, Speisen, Getränke und Ausrüstung aus dem Restaurant mitzunehmen."
+                "no_takeaway": "Es ist strengstens verboten, Speisen, Getränke und Ausrüstungen aus dem Restaurant mitzunehmen."
             },
-            "note": "NB: Es wird empfohlen, Ihre Getränke zu bestellen, bevor Sie zum Buffet gehen, um den Service zu beschleunigen (Extra-Getränke).",
+            "note": "NB: Es wird empfohlen, Ihre Getränke zu bestellen, bevor Sie sich zum Buffet begeben, um den Service zu beschleunigen (zusätzliche Getränke).",
             "ken_zmen_info": "Ken Zmen ist ein tunesisches Restaurant, das eine Vielzahl traditioneller Gerichte in einer warmen und freundlichen Atmosphäre anbietet."
         },
         "bars_and_cafes": {
             "heading": "Bars & Cafés",
             "juliette": {
-                "title": "Salon de Thé (Café & Lounge) ",
+                "title": "Teesalon (Café & Lounge)",
                 "phone": "6016",
-                "description": "Das Juliette Tea Lounge bietet ein reichhaltiges Menü (Kaffee, Tee, Säfte verschiedener Art) und ein hochwertiges Gebäck in einer guten familiären Atmosphäre. Geöffnet von 07:00 Uhr bis 00:00 Uhr."
+                "description": "Der Teesalon Juliette bietet ein reichhaltiges Menü (Kaffee, Tee, verschiedene Säfte) und hochwertiges Gebäck in einer guten familiären Atmosphäre. Geöffnet von 07:00 bis 00:00 Uhr."
             },
             "niagra": {
-                "title": "Niagara Snack Bar",
+                "title": "Niagara Snackbar",
                 "phone": "6033",
-                "description": "Im 1. Stock gelegen, mit Blick auf den Außenpool, ist dieser Snack für sein schnelles und leichtes Menü bekannt. (Geöffnet während der Sommersaison) Ideal für einen schnellen Snack oder Drink am Pool. Geöffnet von 10:00 Uhr bis 04h30 Uhr."
+                "description": "Im 1. Stock gelegen, mit Blick auf den Außenpool, ist dieser Snack für sein schnelles und leichtes Menü bekannt. (Geöffnet während der Sommersaison) Ideal für einen Snack oder ein schnelles Getränk am Pool, um ein gutes Glas zu genießen. Geöffnet von 10:00 bis 04:30 Uhr."
             },
             "kalven": {
                 "title": "Kalven Club / Tanzbar",
                 "phone": "6017",
-                "description": "Eine sanfte und fesselnde Atmosphäre, alternative Musik, ein reiner Moment der Entspannung und des Wohlbefindens. Ein trendiger Club. Geöffnet von 20:00 Uhr bis 02:00 Uhr."
+                "description": "Eine sanfte und fesselnde Atmosphäre, alternative Musik, ein reiner Moment der Entspannung und des Wohlbefindens. Ein trendiger Club. Geöffnet von 20:00 bis 02:00 Uhr."
             },
             "doxa": {
-                "title": "Doxa lounge",
+                "title": "Doxa Lounge",
                 "phone": "6036",
-                "description": "Der richtige Ort, um eine schöne Umgebung und gute Atmosphäre zu genießen, bekannt für seine Cocktails, Tapas und Shooter mit Live-Bands. Ideal für Liebhaber von Ruhe und Privatsphäre. Geöffnet von 17:00 Uhr bis 04h30 Uhr."
+                "description": "Der ideale Ort, um eine wunderschöne Umgebung und eine gute Atmosphäre zu genießen, berühmt für seine Cocktails, Tapas und Shooter mit Live-Bands. Ideal für Liebhaber von Ruhe und Intimität. Geöffnet von 17:00 bis 04:30 Uhr."
             },
             "hookah": {
                 "title": "Hookah",
                 "phone": "6034",
-                "description": "Eine Verbindung von Düften und typischen Farben, ein Hauptort der Köstlichkeiten (Shisha und türkischer Kaffee, die in einer sehr orientalischen Atmosphäre genossen werden können). Geöffnet von 18:00 Uhr bis 02:00 Uhr."
+                "description": "Eine Mischung aus typischen Düften und Farben, ein Hauptort der Köstlichkeiten (Shisha und türkischer Kaffee, die in einer sehr orientalischen Atmosphäre genossen werden können). Geöffnet von 18:00 bis 02:00 Uhr."
+            },
+            "el_chedlia": {
+                "title": "El Chedlia",
+                "phone": "6034",
+                "description": "Eine Mischung aus typischen Düften und Farben, ein Hauptort der Köstlichkeiten (Shisha und türkischer Kaffee, die in einer sehr orientalischen Atmosphäre genossen werden können). Geöffnet von 15:00 bis 04:30 Uhr."
             }
         },
         "bars": {},
         "beach": "Strand",
-        "beach_description": "Schöner privater, feiner Sandstrand, 250 m vom Hotel entfernt, ausgestattet mit Sonnenschirmen, Liegestühlen und Matratzen, die für Hotelgäste kostenlos sind (Wassersport in der Nähe gegen Gebühr).",
+        "beach_description": "Schöner privater Sandstrand, 250 m vom Hotel entfernt, ausgestattet mit Sonnenschirmen, Liegestühlen und kostenlosen Matratzen für Hotelgäste (Wassersport in der Nähe, kostenpflichtig).",
         "entertainment": "Unterhaltung",
         "entertainmentProgram": {
             "title": "Unterhaltungsprogramm",
-            "description": "Sie können unser Tages- und Abendunterhaltungsprogramm auf der Anschlagtafel der Rezeption einsehen.",
-            "daytimeEntertainment": "Tagesunterhaltung: Aperitifspiele, Darts, Tanzkurse, Aqua-Gymnastik, Gymnastik, Strand, Volleyball.",
+            "description": "Sie können unsere Tages- und Abendunterhaltungsprogramme auf der Anzeigetafel der Rezeption einsehen.",
+            "daytimeEntertainment": "Tagesunterhaltung: Aperitifspiele, Darts, Tanzkurse, Wassergymnastik, Gymnastik, Strand, Volleyball.",
             "nightlife": {
                 "title": "Nachtleben",
-                "description": "Diese Aktivitäten finden im Winter auf der Bühne im unteren Bereich und im Sommer am Rand des Außenpools statt und richten sich an alle Altersgruppen.",
-                "miniDisco": "Mini-Disco für Ihre Kinder von 21:00 Uhr bis 21:30 Uhr, gefolgt von verschiedenen Shows."
+                "description": "Diese Aktivitäten finden im Winter auf der unteren Ebene und im Sommer am Außenpool statt und richten sich an alle Altersgruppen.",
+                "miniDisco": "Mini-Disco für Ihre Kinder von 21:00 bis 21:30 Uhr, gefolgt von verschiedenen Shows."
             }
         },
         "sport": {
             "title": "Sport",
-            "description": "Entdecken Sie in der Nähe Möglichkeiten zum Tennis, Reiten, Windsurfen, Segeln, Wasserski und Golf oder genießen Sie einfach einen Spaziergang. Bitte wenden Sie sich für weitere Informationen oder Buchungen an die Rezeption."
+            "description": "Entdecken Sie die Möglichkeiten in der Nähe, Tennis, Reiten, Windsurfen, Segeln, Wasserski, Fallschirmspringen, Ausflüge, Bootsfahrten und Golf zu spielen oder einfach nur einen Spaziergang zu genießen. Bitte kontaktieren Sie die Rezeption für weitere Informationen oder Reservierungen."
         },
         "pools": {
             "title": "Schwimmbäder",
             "description": "Das Hotel verfügt über zwei Schwimmbäder:",
             "pools1": "Ein Außenpool im 1. Stock",
             "pools2": "Ein beheiztes Hallenbad im unteren Bereich",
-            "guardedHours": "Die Schwimmbäder sind von 09:00 bis 19:00 Uhr bewacht. Kinder müssen beim Schwimmen jederzeit von ihren Eltern begleitet werden."
+            "guardedHours": "Die Schwimmbäder sind von 09:00 bis 19:00 Uhr überwacht. Kinder müssen während des Schwimmens jederzeit von ihren Eltern begleitet werden."
         },
         "otherServices": {
-            "title": "Weitere Dienstleistungen (Extras)",
-            "conference": "Konferenzeinrichtungen",
-            "gym": "Fitnessstudio: im unteren Bereich",
+            "title": "Andere Dienstleistungen (Extras)",
+            "conference": "Konferenzeinrichtungen: ein Mehrzweckraum (die Marina)",
+            "conferenceDescription": "Ein Seminarraum, der für alle Ihre Veranstaltungen ausgestattet ist: Hochzeiten, Seminare, Galadinner, Geburtstage; und 5 Unterkommissionsräume",
+            "gym": "Wellnesscenter",
+            "boutique": "Handwerks- und Souvenirladen",
             "drugstore": "Drogerie"
         },
         "goodToKnow": {
@@ -139,7 +146,7 @@
             "items": {
                 "elevator": {
                     "label": "Aufzüge",
-                    "description": "Aufzüge sind für unbegleitete Kinder strengstens verboten."
+                    "description": "Die Aufzüge sind für unbegleitete Kinder streng verboten."
                 },
                 "pets": {
                     "label": "Haustiere",
@@ -147,35 +154,30 @@
                 },
                 "quiet": {
                     "label": "Ruhe bewahren",
-                    "description": "Es wird im gesamten Hotel darum gebeten, die Ruhe aller Gäste zu gewährleisten. Vermeiden Sie das Zuschlagen von Türen oder übermäßigen Lärm, insbesondere in den Fluren."
+                    "description": "Im gesamten Hotel wird gebeten, auf die Ruhe aller Gäste zu achten. Vermeiden Sie es, Türen zu schlagen oder übermäßigen Lärm zu machen, insbesondere in den Fluren."
                 },
                 "dress_code": {
-                    "label": "Kleiderordnung in öffentlichen Bereichen",
-                    "description": "Es ist strengstens verboten, öffentliche Bereiche wie Restaurants, Bars und die Rezeption in nassen Badeanzügen, mit nacktem Oberkörper oder barfuß zu betreten."
+                    "label": "Kleiderordnung in den öffentlichen Bereichen",
+                    "description": "Es ist strengstens verboten, die öffentlichen Bereiche wie Restaurants, Bars und die Rezeption in nassen Badeanzügen, mit nacktem Oberkörper oder barfuß zu betreten."
                 },
                 "baby-cot": {
                     "label": "Babybett",
-                    "description": "Bitte wenden Sie sich an die Rezeption, um ein Babybett in Ihrem Zimmer aufstellen zu lassen."
-                },
-                "meeting": {
-                    "label": "Meetings, Seminare, Konferenzen und Ausstellungen",
-                    "description": "Das Hotel bietet eine ideale Umgebung für Ihre Veranstaltungen mit einem Mehrzweckraum (mit einer Kapazität von bis zu 300 Personen) und Gruppenräumen."
+                    "description": "Bitte kontaktieren Sie die Rezeption, um ein Babybett in Ihrem Zimmer aufstellen zu lassen."
                 },
                 "currency": {
-                    "label": "Währung und Währungsumtausch, Geldautomat, Autovermietung",
+                    "label": "Währung und Wechsel, Geldautomat, Autovermietung",
                     "description": "Alles 24 Stunden an der Rezeption verfügbar."
                 }
             },
-            "suggestions": "Für alle Ihre Vorschläge und Kommentare zögern Sie nicht, uns zu kontaktieren. Unser Ziel ist es, Ihren Aufenthalt zu einem echten Vergnügen und einem unvergesslichen Erlebnis zu machen. Bitte informieren Sie die Rezeption, wenn Sie während Ihres Aufenthalts Unannehmlichkeiten feststellen. Wir werden unser Bestes tun, um diese so schnell und effizient wie möglich zu beheben.",
-            "teamWish": "Das gesamte Team des Hotels wünscht Ihnen einen angenehmen Aufenthalt."
+            "suggestions": "Für alle Ihre Vorschläge und Kommentare zögern Sie nicht, uns zu kontaktieren. Unser Ziel ist es, Ihren Aufenthalt zu einem wahren Vergnügen und einem unvergesslichen Erlebnis zu machen. Bitte informieren Sie die Rezeption, wenn Sie während Ihres Aufenthalts auf Unannehmlichkeiten stoßen. Wir werden unser Bestes tun, um diese schnell und effizient zu beheben.",
+            "teamWish": "Das gesamte Hotelteam wünscht Ihnen einen angenehmen Aufenthalt."
         }
     },
     "Contact": {
-    "title": "Kontaktieren Sie uns",
-    "paragraph": "Haben Sie eine Frage oder benötigen Sie Hilfe? Zögern Sie nicht, uns zu kontaktieren. Wir sind hier, um zu helfen.",
-    "address": "Adresse",
-    "phone": "Telefon",
-    "email": "E-Mail"
-}
-
+        "title": "Kontaktieren Sie uns",
+        "paragraph": "Haben Sie eine Frage oder benötigen Sie Hilfe? Zögern Sie nicht, uns zu kontaktieren. Wir sind hier, um Ihnen zu helfen.",
+        "address": "Adresse",
+        "phone": "Telefon",
+        "email": "E-Mail"
+    }
 }

@@ -21,7 +21,7 @@ export default function Component() {
             <div className="space-y-2">
               <p>Hotel el Kantaoui Center</p>
               <p>
-                B.P 355 - BD14 Janvier 2011-4089 Port El Kantaoui - Sousse -
+                B.P 355 - BD14 Janvier 2011-4089 Port El Kantaoui - Hammam Sousse -
                 Tunisie
               </p>
             </div>
