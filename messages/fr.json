@@ -20,7 +20,7 @@
         }
     },
     "Why": {
-        "titre": "Pourquoi vous devriez nous choisir",
+        "title": "Pourquoi vous devriez nous choisir",
         "freeWifi": {
             "title": "Wifi gratuit",
             "message": "Profitez de la meilleure connexion internet de la ville."
