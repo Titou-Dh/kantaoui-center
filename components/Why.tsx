@@ -22,10 +22,10 @@ const Why = () => {
                         <h2 className="text-xl text-black my-2 dark:text-white">
                             {t("freeWifi.title")}
                         </h2>
-                        <p className="text-gray-500">
+                        {/* <p className="text-gray-500">
                             {t("freeWifi.message")}
                             <br />
-                        </p>
+                        </p> */}
                     </div>
                     <div data-aos="fade-down">
                         <div className="rounded-full bg-primary w-min p-4 mx-auto md:mx-0">
@@ -35,23 +35,11 @@ const Why = () => {
                         <h2 className="text-xl dark:text-white text-black my-2">
                             {t("freeParking.title")}
                         </h2>
-                        <p className="text-gray-500">
+                        {/* <p className="text-gray-500">
                             {t("freeParking.message")} <br />
-                        </p>
+                        </p> */}
                     </div>
-                    <div data-aos="fade-down">
-                        <div className="rounded-full bg-primary w-min p-4 mx-auto md:mx-0">
-                            {" "}
-                            <ResortIcon height={24} width={24} color="#fff" />
-                        </div>
-                        <h2 className="text-xl dark:text-white text-black my-2">
-                            {t("ressort.title")}{" "}
-                        </h2>
-                        <p className="text-gray-500">
-                            {t("ressort.message")}
-                            <br />
-                        </p>
-                    </div>
+
                 </div>
                 <div className="md:w-1/2 w-full" data-aos="zoom-in">
                     <img src="/why.png" alt="why1" className="w-full h-full" />
