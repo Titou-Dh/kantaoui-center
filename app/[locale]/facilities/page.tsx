@@ -17,10 +17,7 @@ const Page = () => {
       <h1 className="text-5xl text-center pt-8 pb-4 text-primary ">
         {t("title")}
       </h1>
-      <p className="md:w-3/4 text-center mx-auto text-gray-500">
-        {t("paragraph")}
-        {" "}
-      </p>
+
       <div className="gap-10">
         <Card
           isFooterBlurred

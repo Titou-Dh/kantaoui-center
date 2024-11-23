@@ -36,11 +36,11 @@
     },
     "Where": {
         "title": "Où nous trouver",
-        "paragraph": "EL Kantaoui Center est situé au cœur du premier complexe touristique de Tunisie, Port El Kantaoui, à 10 minutes en voiture du centre-ville de Sousse, à 15 km de l'aéroport international de Monastir et à 30 km de l'aéroport international d'Enfidha. À proximité d'une marina, de divers magasins, bars, cafés, restaurants, parc d'attractions et fêtes foraines, club de tennis, club de plongée, port de plaisance, parcours de golf (classé PGA), discothèques, etc."
+        "paragraph": "Situé en plein coeur de la premiere station balnéaire  de la Tunisie port el kantaoui d seulement IO mn du  centre ville de Sousse et 15 Km de l'aéroport de  Monastir et de 30 Km de celui d' Enfidha.  A proximité de la marina , un port de plaisance , une  diversité de boutiques , bars , cafés et restaurants , des  parcs d'attractions : aquatique , et thömes , d'un  parcours de golf de classe internationale , d'un centre de  tennis , d'un centre de plongée sows-marine , des nights  clubs et lounge ."
     },
     "Facilities": {
-        "title": "Facilités",
-        "paragraph": "Nous voulons que votre séjour dans notre hôtel luxuriant soit vraiment inoubliable. C'est pourquoi nous accordons une attention particulière à tous vos besoins afin de garantir une expérience unique. Les hôtels de luxe offrent un cadre parfait avec des vues imprenables pour les loisirs et nos installations modernes de complexe de luxe vous aideront à profiter du meilleur de tout.",
+        "title": "Nos facilités",
+        "paragraph": "",
         "hotel_info": {
             "checkin_checkout": "Enregistrement : 14h00 - Départ : Conformément aux normes internationales, les clients sont priés de libérer la chambre le jour de leur départ à 12h00. Cependant, les clients peuvent toujours laisser leurs bagages dans la chambre désignée par la réception si nécessaire.",
             "services_offered": "La Réception vous propose les services suivants :",
@@ -59,7 +59,7 @@
             "wakeup_call": "Réveil téléphonique : Veuillez vous arranger avec la Réception."
         },
         "restaurant_info": {
-            "restaurant": "Restaurant",
+            "restaurant": "Restaurants",
             "menu_info": "Le restaurant propose un menu riche comprenant différents plats, salades et pâtisseries, tous frais et savoureux. Ouvert de 17h00 à minuit.",
             "description": "Le restaurant principal de l'hôtel propose un buffet riche et un service de show cooking.",
             "timing": {
