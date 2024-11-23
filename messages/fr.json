@@ -78,14 +78,14 @@
         "bars_and_cafes": {
             "heading": "Bars & Cafés",
             "juliette": {
-                "title": "Salon de Thé (Café & Lounge) Juliette",
+                "title": "Salon de Thé (Café & Lounge) ",
                 "phone": "6016",
                 "description": "Le salon de thé Juliette propose un menu riche (café, thé, jus de différents types) et une pâtisserie de haute gamme dans une bonne ambiance familiale. Ouvert de 07h00 à 00h00."
             },
             "niagra": {
-                "title": "Niagara",
+                "title": "Niagara snack bar",
                 "phone": "6033",
-                "description": "Situé au 1er étage, ouvrant sur la piscine extérieure, ce snack est connu pour son menu rapide et léger. (Ouvert pendant la saison estivale) Idéal pour un en-cas ou une boisson rapide au bord de la piscine. Ouvert de 10h00 à 00h00."
+                "description": "Situé au 1er étage, ouvrant sur la piscine extérieure, ce snack est connu pour son menu rapide et léger. (Ouvert pendant la saison estivale) Idéal pour un en-cas ou une boisson rapide au bord de la piscine pour siroter un bon verre. Ouvert de 10h00 à 04h30."
             },
             "kalven": {
                 "title": "Kalven club / bar dansant",
@@ -93,9 +93,9 @@
                 "description": "Une ambiance douce et captivante, une musique alternative, un pur moment de détente et de bien-être. Un club tendance. Ouvert de 20h00 à 02h00."
             },
             "doxa": {
-                "title": "Doxa",
+                "title": "Doxa lounge",
                 "phone": "6036",
-                "description": "Le lieu idéal pour profiter d'un cadre magnifique et d'une bonne ambiance, célèbre pour ses cocktails, Tapas et Shooters avec des groupes en live. Endroit idéal pour les amateurs de tranquillité et d'intimité. Ouvert de 17h00 à 02h00."
+                "description": "Le lieu idéal pour profiter d'un cadre magnifique et d'une bonne ambiance, célèbre pour ses cocktails, Tapas et Shooters avec des groupes en live. Endroit idéal pour les amateurs de tranquillité et d'intimité. Ouvert de 17h00 à 04h30."
             },
             "hookah": {
                 "title": "Hookah",

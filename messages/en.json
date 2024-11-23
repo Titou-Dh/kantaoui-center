@@ -59,7 +59,7 @@
             "wakeup_call": "Wakeup Call: Please arrange with the Reception."
         },
         "restaurant_info": {
-            "restaurant": "Restaurant",
+            "restaurant": "Restaurants",
             "menu_info": "The restaurant offers a rich menu that includes different dishes, salads, and pastries, all fresh and tasty. Open from 5:00 PM until midnight.",
             "description": "The hotel's main Restaurant offers a rich buffet and a show cooking service.",
             "timing": {
@@ -78,14 +78,14 @@
         "bars_and_cafes": {
             "heading": "Bars & Cafes",
             "juliette": {
-                "title": "Salon de Thé (Cafe & Lounge) Juliette",
+                "title": "Salon de Thé (Cafe & Lounge) ",
                 "phone": "6016",
                 "description": "Juliette Tea lounge offers a rich menu (coffee, tea, juices of different kinds) and a pastry of high range in a good family atmosphere. Open from 07:00 to 00:00."
             },
             "niagra": {
-                "title": "Niagara",
+                "title": "Niagara snack bar",
                 "phone": "6033",
-                "description": "Located on the 1st floor, opening on the outdoor pool, this snack is known for its fast and light menu. (Open during the Summer Season) Ideal for a quick snack or drink by the pool. Open from 10:00 AM until 00:00."
+                "description": "Located on the 1st floor, opening on the outdoor pool, this snack is known for its fast and light menu. (Open during the Summer Season) Ideal for a quick snack or drink by the pool. Open from 10:00 AM until 04h30."
             },
             "kalven": {
                 "title": "Kalven club / dancing bar",
@@ -93,9 +93,9 @@
                 "description": "A soft and captivating atmosphere, an alternative music, a pure moment of relaxation and well-being. A trendy club. Open from 8:00 PM to 2:00 AM."
             },
             "doxa": {
-                "title": "Doxa",
+                "title": "Doxa lounge",
                 "phone": "6036",
-                "description": "The right place to enjoy a beautiful setting and good atmosphere, famous for its cocktails, Tapas, and Shooters with live Bands. Ideal place for lovers of tranquility and privacy. Open from 5:00 PM to 2:00 AM."
+                "description": "The right place to enjoy a beautiful setting and good atmosphere, famous for its cocktails, Tapas, and Shooters with live Bands. Ideal place for lovers of tranquility and privacy. Open from 5:00 PM to 04h30 AM."
             },
             "hookah": {
                 "title": "Hookah",

@@ -59,7 +59,7 @@
             "wakeup_call": "Weckruf: Bitte arrangieren Sie dies mit der Rezeption."
         },
         "restaurant_info": {
-            "restaurant": "Restaurant",
+            "restaurant": "Restaurants",
             "menu_info": "Das Restaurant bietet ein reichhaltiges Menü mit verschiedenen Gerichten, Salaten und Gebäck, alles frisch und lecker. Geöffnet von 17:00 Uhr bis Mitternacht.",
             "description": "Das Hauptrestaurant des Hotels bietet ein reichhaltiges Buffet und einen Show-Cooking-Service.",
             "timing": {
@@ -78,14 +78,14 @@
         "bars_and_cafes": {
             "heading": "Bars & Cafés",
             "juliette": {
-                "title": "Salon de Thé (Café & Lounge) Juliette",
+                "title": "Salon de Thé (Café & Lounge) ",
                 "phone": "6016",
                 "description": "Das Juliette Tea Lounge bietet ein reichhaltiges Menü (Kaffee, Tee, Säfte verschiedener Art) und ein hochwertiges Gebäck in einer guten familiären Atmosphäre. Geöffnet von 07:00 Uhr bis 00:00 Uhr."
             },
             "niagra": {
-                "title": "Niagara",
+                "title": "Niagara Snack Bar",
                 "phone": "6033",
-                "description": "Im 1. Stock gelegen, mit Blick auf den Außenpool, ist dieser Snack für sein schnelles und leichtes Menü bekannt. (Geöffnet während der Sommersaison) Ideal für einen schnellen Snack oder Drink am Pool. Geöffnet von 10:00 Uhr bis 00:00 Uhr."
+                "description": "Im 1. Stock gelegen, mit Blick auf den Außenpool, ist dieser Snack für sein schnelles und leichtes Menü bekannt. (Geöffnet während der Sommersaison) Ideal für einen schnellen Snack oder Drink am Pool. Geöffnet von 10:00 Uhr bis 04h30 Uhr."
             },
             "kalven": {
                 "title": "Kalven Club / Tanzbar",
@@ -93,9 +93,9 @@
                 "description": "Eine sanfte und fesselnde Atmosphäre, alternative Musik, ein reiner Moment der Entspannung und des Wohlbefindens. Ein trendiger Club. Geöffnet von 20:00 Uhr bis 02:00 Uhr."
             },
             "doxa": {
-                "title": "Doxa",
+                "title": "Doxa lounge",
                 "phone": "6036",
-                "description": "Der richtige Ort, um eine schöne Umgebung und gute Atmosphäre zu genießen, bekannt für seine Cocktails, Tapas und Shooter mit Live-Bands. Ideal für Liebhaber von Ruhe und Privatsphäre. Geöffnet von 17:00 Uhr bis 02:00 Uhr."
+                "description": "Der richtige Ort, um eine schöne Umgebung und gute Atmosphäre zu genießen, bekannt für seine Cocktails, Tapas und Shooter mit Live-Bands. Ideal für Liebhaber von Ruhe und Privatsphäre. Geöffnet von 17:00 Uhr bis 04h30 Uhr."
             },
             "hookah": {
                 "title": "Hookah",
