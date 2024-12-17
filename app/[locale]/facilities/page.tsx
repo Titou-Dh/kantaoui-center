@@ -368,12 +368,12 @@ const Page = () => {
             onClick={() => openModal("/gallery/image32.jpg")}
           />
           <Image
-            src="/gallery/image37.jpg"
+            src="/gallery/image7.jpg"
             width={200}
             height={200}
             alt="rooms"
             className="object-cover rounded-xl"
-            onClick={() => openModal("/gallery/image37.jpg")}
+            onClick={() => openModal("/gallery/image7.jpg")}
           />
         </div>
         <p className="text-xl">{t("beach_description")}</p>
@@ -395,56 +395,6 @@ const Page = () => {
           </CardFooter>
         </Card>
 
-        <div className="flex items-center justify-center md:justify-start gap-3 my-5 flex-wrap">
-          <Image
-            src="/gallery/image2.jpg"
-            width={200}
-            height={200}
-            alt="rooms"
-            className="object-contain rounded-xl"
-            onClick={() => openModal("/gallery/image2.jpg")}
-          />
-          <Image
-            src="/gallery/image26.jpg"
-            width={200}
-            height={200}
-            alt="rooms"
-            className="object-contain rounded-xl"
-            onClick={() => openModal("/gallery/image26.jpg")}
-          />
-          <Image
-            src="/gallery/image3.jpg"
-            width={200}
-            height={200}
-            alt="rooms"
-            className="object-contain rounded-xl"
-            onClick={() => openModal("/gallery/image3.jpg")}
-          />
-          <Image
-            src="/gallery/image13.jpg"
-            width={200}
-            height={200}
-            alt="rooms"
-            className="object-contain rounded-xl"
-            onClick={() => openModal("/gallery/image13.jpg")}
-          />
-          <Image
-            src="/gallery/image15.jpg"
-            width={200}
-            height={200}
-            alt="rooms"
-            className="object-contain rounded-xl"
-            onClick={() => openModal("/gallery/image15.jpg")}
-          />
-          <Image
-            src="/gallery/image18.jpg"
-            width={200}
-            height={200}
-            alt="rooms"
-            className="object-contain rounded-xl"
-            onClick={() => openModal("/gallery/image18.jpg")}
-          />
-        </div>
         <div>
           <h2 className="text-2xl font-bold text-primary mb-4">
             {t("entertainmentProgram.title")}
@@ -477,6 +427,56 @@ const Page = () => {
             <li>{t("pools.pools2")}</li>
           </ul>
           <p className="mb-8">{t("pools.guardedHours")}</p>
+          <div className="flex items-center justify-center md:justify-start gap-3 my-5 flex-wrap">
+            <Image
+              src="/gallery/image2.jpg"
+              width={200}
+              height={200}
+              alt="rooms"
+              className="object-contain rounded-xl"
+              onClick={() => openModal("/gallery/image2.jpg")}
+            />
+            <Image
+              src="/gallery/image26.jpg"
+              width={200}
+              height={200}
+              alt="rooms"
+              className="object-contain rounded-xl"
+              onClick={() => openModal("/gallery/image26.jpg")}
+            />
+            <Image
+              src="/gallery/image3.jpg"
+              width={200}
+              height={200}
+              alt="rooms"
+              className="object-contain rounded-xl"
+              onClick={() => openModal("/gallery/image3.jpg")}
+            />
+            <Image
+              src="/gallery/image13.jpg"
+              width={200}
+              height={200}
+              alt="rooms"
+              className="object-contain rounded-xl"
+              onClick={() => openModal("/gallery/image13.jpg")}
+            />
+            <Image
+              src="/gallery/image15.jpg"
+              width={200}
+              height={200}
+              alt="rooms"
+              className="object-contain rounded-xl"
+              onClick={() => openModal("/gallery/image15.jpg")}
+            />
+            <Image
+              src="/gallery/image18.jpg"
+              width={200}
+              height={200}
+              alt="rooms"
+              className="object-contain rounded-xl"
+              onClick={() => openModal("/gallery/image18.jpg")}
+            />
+          </div>
 
           <h2 className="text-2xl font-bold text-primary mb-4">
             {t("otherServices.title")}
@@ -485,7 +485,7 @@ const Page = () => {
             <li>
               {t("otherServices.conference")}
               {": "}
-              <span className="list-none text-gray-300">
+              <span className="list-none text-white dark:text-gray-300">
                 {t("otherServices.conferenceDescription")}
               </span>
             </li>

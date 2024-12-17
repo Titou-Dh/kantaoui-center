@@ -21,14 +21,14 @@ export const siteConfig = {
       },
       href: "/facilities",
     },
-    {
-      label: {
-        en: "Gallery",
-        de: "Gallery",
-        fr: "Gallery",
-      },
-      href: "/gallery",
-    },
+    // {
+    //   label: {
+    //     en: "Gallery",
+    //     de: "Gallery",
+    //     fr: "Gallery",
+    //   },
+    //   href: "/gallery",
+    // },
     {
       label: {
         en: "About us",
@@ -63,14 +63,14 @@ export const siteConfig = {
       },
       href: "/facilities",
     },
-    {
-      label: {
-        en: "Gallery",
-        de: "Gallery",
-        fr: "Gallery",
-      },
-      href: "/gallery",
-    },
+    // {
+    //   label: {
+    //     en: "Gallery",
+    //     de: "Gallery",
+    //     fr: "Gallery",
+    //   },
+    //   href: "/gallery",
+    // },
     {
       label: {
         en: "About us",
